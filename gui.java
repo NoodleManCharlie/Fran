@@ -4,12 +4,12 @@ import java.awt.*;
 public class gui {
     public static void main(String args[]){
         //Creating the Frame
-        JFrame frame = new JFrame("Chat Frame");
+        JFrame frame = new JFrame("Fran Downloader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 400);
+        frame.setSize(250, 300);
 
         //Creating the MenuBar and adding components
-        JMenuBar mb = new JMenuBar();
+        /*JMenuBar mb = new JMenuBar();
         JMenu m1 = new JMenu("FILE");
         JMenu m2 = new JMenu("Help");
         mb.add(m1);
@@ -17,26 +17,36 @@ public class gui {
         JMenuItem m11 = new JMenuItem("Open");
         JMenuItem m22 = new JMenuItem("Save as");
         m1.add(m11);
-        m1.add(m22);
+        m1.add(m22);*/
+
+        String[] mods = {"Beans", "Beas", "Bens", "eans"};
+
 
         //Creating the panel at bottom and adding components
         JPanel panel = new JPanel(); // the panel is not visible in output
-        JLabel label = new JLabel("Enter Text");
-        JTextField tf = new JTextField(10); // accepts upto 10 characters
-        JButton send = new JButton("Send");
-        JButton reset = new JButton("Reset");
-        panel.add(label); // Components Added using Flow Layout
-        panel.add(tf);
-        panel.add(send);
-        panel.add(reset);
+        JButton download = new JButton("Download");
+        JButton cancel = new JButton("Cancel");
+        // Components Added using Flow Layout
+        panel.add(download);
+        panel.add(cancel);
 
         // Text Area at the Center
-        JTextArea ta = new JTextArea();
+        JPanel modList = new JPanel();
+        JPanel modList2 = new JPanel();
+        JLabel list = new JLabel("List Of Mods");
+        JLabel mod;
+        modList.add(list);
 
-        //Adding Components to the frame.
+        //Adding Components to the frame.s
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
-        frame.getContentPane().add(BorderLayout.NORTH, mb);
-        frame.getContentPane().add(BorderLayout.CENTER, ta);
+        for (int i = 0; i <= mods.length - 1; i++)  
+        {
+            mod = new JLabel(mods[i]);
+            modList2.add(mod);
+            //frame.getContentPane().add(BorderLayout.CENTER, mod);
+        }
+        frame.getContentPane().add(BorderLayout.NORTH, modList);
+        frame.getContentPane().add(BorderLayout.AFTER_LINE_ENDS, modList2);
         frame.setVisible(true);
     }
 }
