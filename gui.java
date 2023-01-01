@@ -1,12 +1,26 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class gui {
+
+    public static int getSize(String[] mods)
+    {
+        int height = 100;
+        for(int  i = 0; i <= mods.length - 1; i++)
+        {
+            height += 35;
+        }
+        return height;
+    }
     public static void main(String args[]){
         //Creating the Frame
         JFrame frame = new JFrame("Fran Downloader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(250, 300);
+
+        String[] mods = {"beans", "ben", "flying"};
+
+        frame.setSize(250, getSize(mods));
 
         //Creating the MenuBar and adding components
         /*JMenuBar mb = new JMenuBar();
@@ -18,8 +32,6 @@ public class gui {
         JMenuItem m22 = new JMenuItem("Save as");
         m1.add(m11);
         m1.add(m22);*/
-
-        String[] mods = {"Beans", "Beas", "Bens", "eans"};
 
 
         //Creating the panel at bottom and adding components
@@ -33,6 +45,7 @@ public class gui {
         // Text Area at the Center
         JPanel modList = new JPanel();
         JPanel modList2 = new JPanel();
+        modList2.setLayout(new GridLayout(mods.length, 3));
         JLabel list = new JLabel("List Of Mods");
         JLabel mod;
         modList.add(list);
@@ -46,7 +59,23 @@ public class gui {
             //frame.getContentPane().add(BorderLayout.CENTER, mod);
         }
         frame.getContentPane().add(BorderLayout.NORTH, modList);
-        frame.getContentPane().add(BorderLayout.AFTER_LINE_ENDS, modList2);
+        frame.getContentPane().add(BorderLayout.CENTER, modList2);
         frame.setVisible(true);
+
+        
+
+        cancel.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+        
+        download.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Downloading Mods");
+            }
+        });
     }
 }
