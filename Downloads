@@ -1,0 +1,524 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head nonce="68844b471f8d408a9faec62fd4642112"><style data-styled="" data-styled-version="5.2.1">.jmMyZK{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;display:block;padding:0 0 1em;margin-top:0;margin-bottom:0;font-size:32px;font-weight:900;-webkit-letter-spacing:-1px;-moz-letter-spacing:-1px;-ms-letter-spacing:-1px;letter-spacing:-1px;line-height:40px;padding-bottom:0.67em;color:inherit;}/*!sc*/
+@media (min-width:768px){.jmMyZK{font-size:40px;line-height:48px;}}/*!sc*/
+@media (min-width:992px){.jmMyZK{font-size:48px;line-height:56px;}}/*!sc*/
+.fLKBXt{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;display:block;padding:0 0 1em;margin-top:0;margin-bottom:0;font-size:16px;font-weight:400;line-height:24px;-webkit-letter-spacing:0px;-moz-letter-spacing:0px;-ms-letter-spacing:0px;letter-spacing:0px;color:inherit;}/*!sc*/
+.izWExp{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;display:block;padding:0 0 1em;margin-top:0;margin-bottom:0;font-size:28px;font-weight:900;-webkit-letter-spacing:-0.25px;-moz-letter-spacing:-0.25px;-ms-letter-spacing:-0.25px;letter-spacing:-0.25px;line-height:36px;padding-bottom:0.75em;color:inherit;}/*!sc*/
+@media (min-width:768px){.izWExp{font-size:32px;line-height:40px;-webkit-letter-spacing:-0.5px;-moz-letter-spacing:-0.5px;-ms-letter-spacing:-0.5px;letter-spacing:-0.5px;}}/*!sc*/
+.jqhzrS{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;display:block;padding:0 0 1em;margin-top:0;margin-bottom:0;font-size:28px;font-weight:900;-webkit-letter-spacing:-0.25px;-moz-letter-spacing:-0.25px;-ms-letter-spacing:-0.25px;letter-spacing:-0.25px;line-height:36px;padding-bottom:0.75em;color:var(--text-base,#000000);}/*!sc*/
+@media (min-width:768px){.jqhzrS{font-size:32px;line-height:40px;-webkit-letter-spacing:-0.5px;-moz-letter-spacing:-0.5px;-ms-letter-spacing:-0.5px;letter-spacing:-0.5px;}}/*!sc*/
+.fXoIYq{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;display:block;padding:0 0 1em;margin-top:0;margin-bottom:0;font-size:14px;font-weight:400;line-height:20px;-webkit-letter-spacing:0.25px;-moz-letter-spacing:0.25px;-ms-letter-spacing:0.25px;letter-spacing:0.25px;color:inherit;}/*!sc*/
+.kIRhmm{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;margin-top:0;margin-bottom:0;font-size:16px;font-weight:400;line-height:24px;-webkit-letter-spacing:0px;-moz-letter-spacing:0px;-ms-letter-spacing:0px;letter-spacing:0px;color:inherit;}/*!sc*/
+data-styled.g6[id="Type__TypeElement-sc-9snywk-0"]{content:"jmMyZK,fLKBXt,izWExp,jqhzrS,fXoIYq,kIRhmm,"}/*!sc*/
+.izgLyK{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;color:inherit;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.izgLyK[href],.izgLyK:hover:not([disabled]){-webkit-text-decoration:underline;text-decoration:underline;}/*!sc*/
+.izgLyK[href]:hover{-webkit-text-decoration:underline;text-decoration:underline;color:var(--text-bright-accent,#117a37);}/*!sc*/
+.izgLyK[href]:focus{outline:none;box-shadow:0 3px 0 0;-webkit-transition:box-shadow 200ms ease-in;transition:box-shadow 200ms ease-in;}/*!sc*/
+.izgLyK[href]:focus.Link-sc-1ci8k3a-0[href]:focus{-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.izgLyK[href]:active{color:var(--text-bright-accent,#117a37);}/*!sc*/
+.izgLyK[disabled],.izgLyK[href][disabled],.izgLyK[aria-disabled='true']{color:var(--text-subdued,#575757);opacity:0.4;cursor:not-allowed;}/*!sc*/
+data-styled.g21[id="Link-sc-1ci8k3a-0"]{content:"izgLyK,"}/*!sc*/
+.bWXdpj{display:block;position:absolute;pointer-events:none;-webkit-transition:border-color 200ms ease-in;transition:border-color 200ms ease-in;box-sizing:border-box;width:calc(100% + 12px);height:calc(100% + 12px);top:-6px;left:-6px;background:transparent;border-radius:500px;border:3px solid transparent;}/*!sc*/
+data-styled.g29[id="ButtonFocus-tupyzb-0"]{content:"bWXdpj,"}/*!sc*/
+.cfGvV{background-color:var(--background-base,#ffffff);color:var(--text-base,#000000);border-radius:500px;font-size:inherit;padding:14px 32px;}/*!sc*/
+data-styled.g30[id="ButtonInner-peijbp-0"]{content:"cfGvV,"}/*!sc*/
+.jNFemE{box-sizing:border-box;font-family:spotify-circular,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;background-color:transparent;border:0;border-radius:500px;display:inline-block;position:relative;text-align:center;-webkit-text-decoration:none;text-decoration:none;text-transform:none;touch-action:manipulation;-webkit-transition-duration:33ms;transition-duration:33ms;-webkit-transition-property:background-color,border-color,color,box-shadow,filter,-webkit-transform;-webkit-transition-property:background-color,border-color,color,box-shadow,filter,transform;transition-property:background-color,border-color,color,box-shadow,filter,transform;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);padding:0;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}/*!sc*/
+.jNFemE:focus{outline:none;}/*!sc*/
+[lang='ar'] .Button-sc-8cs45s-0{-webkit-letter-spacing:initial;-moz-letter-spacing:initial;-ms-letter-spacing:initial;letter-spacing:initial;line-height:$line-height * 1.5;}/*!sc*/
+@media (max-width:767px){.jNFemE{font-size:14px;line-height:20px;font-weight:700;}}/*!sc*/
+@media (min-width:768px){.jNFemE{font-size:14px;line-height:20px;font-weight:700;text-transform:none;-webkit-letter-spacing:normal;-moz-letter-spacing:normal;-ms-letter-spacing:normal;letter-spacing:normal;}}/*!sc*/
+.jNFemE:hover .ButtonInner-peijbp-0,.jNFemE:hover .ButtonFocus-tupyzb-0{-webkit-transform:scale(1.04);-ms-transform:scale(1.04);transform:scale(1.04);}/*!sc*/
+.jNFemE:hover .ButtonInner-peijbp-0{background-color:var(--background-highlight,#f5f5f5);}/*!sc*/
+.jNFemE:active .ButtonInner-peijbp-0{background-color:var(--background-press,#ededed);box-shadow:none;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}/*!sc*/
+.jNFemE:active .ButtonFocus-tupyzb-0{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}/*!sc*/
+.jNFemE:focus .ButtonFocus-tupyzb-0{border-color:var(--essential-base,#000000);}/*!sc*/
+.jNFemE[disabled] .ButtonInner-peijbp-0,.jNFemE[aria-disabled='true'] .ButtonInner-peijbp-0,fieldset[disabled] .jNFemE .ButtonInner-peijbp-0{cursor:not-allowed;opacity:0.4;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);background-color:var(--background-base,#ffffff);color:var(--text-base,#000000);}/*!sc*/
+.jNFemE[disabled] .ButtonFocus-tupyzb-0,.jNFemE[aria-disabled='true'] .ButtonFocus-tupyzb-0,fieldset[disabled] .jNFemE .ButtonFocus-tupyzb-0{border-color:transparent;}/*!sc*/
+data-styled.g31[id="Button-sc-8cs45s-0"]{content:"jNFemE,"}/*!sc*/
+*{box-sizing:border-box;}/*!sc*/
+*::before,*::after{box-sizing:border-box;}/*!sc*/
+body{font-family:spotify-circular,Helvetica,Arial,sans-serif;margin:0;}/*!sc*/
+html,body{height:100%;}/*!sc*/
+data-styled.g113[id="sc-global-cKDjoD1"]{content:"sc-global-cKDjoD1,"}/*!sc*/
+.kYmGgj{padding-left:32px;}/*!sc*/
+data-styled.g191[id="TypeList__TypeListComponent-sc-1mv2mac-0-ul"]{content:"kYmGgj,"}/*!sc*/
+.fnhCGM{display:list-item;padding-bottom:1em;}/*!sc*/
+data-styled.g193[id="TypeListItem-sc-1nnjqmx-0"]{content:"fnhCGM,"}/*!sc*/
+@font-face{font-family:spotify-circular;src:url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff2') format('woff2'), url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}/*!sc*/
+@font-face{font-family:spotify-circular;src:url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.woff2') format('woff2'), url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.woff') format('woff');font-weight:700;font-style:normal;font-display:swap;}/*!sc*/
+@font-face{font-family:spotify-circular;src:url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.woff2') format('woff2'), url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.woff') format('woff');font-weight:900;font-style:normal;font-display:swap;}/*!sc*/
+data-styled.g196[id="sc-global-loXmst1"]{content:"sc-global-loXmst1,"}/*!sc*/
+.bjalva{margin:0 auto;max-width:750px;}/*!sc*/
+@media (min-width:992px){.bjalva{max-width:970px;}}/*!sc*/
+@media (min-width:1200px){.bjalva{max-width:1170px;}}/*!sc*/
+data-styled.g197[id="MaxWidthContainer__Container-sc-1j93vm2-0"]{content:"bjalva,"}/*!sc*/
+.jufLwI{color:#1db954;-webkit-text-decoration:underline;text-decoration:underline;}/*!sc*/
+.jufLwI:hover:not([disabled]){color:#1ed760;}/*!sc*/
+.jufLwI:focus:not([disabled]){outline:2px solid #2e77d0;}/*!sc*/
+.jufLwI:active:not([disabled]){color:#14833b;}/*!sc*/
+data-styled.g198[id="TextLinkGreen-sc-1oeb75i-0"]{content:"jufLwI,"}/*!sc*/
+.cKXoWq{position:relative;margin:15px;max-width:202px;margin-top:25px;}/*!sc*/
+@media (min-width:992px){.cKXoWq{max-width:250px;}}/*!sc*/
+data-styled.g201[id="DownloadComputer__Container-wxrydg-0"]{content:"cKXoWq,"}/*!sc*/
+.iedzgj{width:100%;}/*!sc*/
+data-styled.g202[id="DownloadComputer__Computer-wxrydg-1"]{content:"iedzgj,"}/*!sc*/
+.jmaUoe{position:absolute;width:25%;top:45%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-animation:0.6s lbWRkT;animation:0.6s lbWRkT;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}/*!sc*/
+data-styled.g203[id="DownloadComputer__GreenCircle-wxrydg-2"]{content:"jmaUoe,"}/*!sc*/
+.cDJXWb{position:absolute;width:8%;top:45%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);opacity:0;-webkit-animation:0.3s dWurqy;animation:0.3s dWurqy;-webkit-animation-delay:0.9s;animation-delay:0.9s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}/*!sc*/
+data-styled.g204[id="DownloadComputer__SuccessCheck-wxrydg-3"]{content:"cDJXWb,"}/*!sc*/
+.iluXgb{margin-bottom:24px;}/*!sc*/
+@media (max-width:767px){.iluXgb{margin-top:16px;}}/*!sc*/
+data-styled.g209[id="NoAutoDownload__StyledText-sc-1s6mawl-0"]{content:"iluXgb,"}/*!sc*/
+.cDmTkv{padding-bottom:24px;}/*!sc*/
+@media (max-width:767px){.cDmTkv{padding-bottom:32px;}}/*!sc*/
+data-styled.g210[id="NoAutoDownload__StyledType-sc-1s6mawl-1"]{content:"cDmTkv,"}/*!sc*/
+.gWDJur{width:136px;margin-bottom:40px;margin-top:64px;}/*!sc*/
+data-styled.g211[id="NoAutoDownload__StyledComputer-sc-1s6mawl-2"]{content:"gWDJur,"}/*!sc*/
+.cCWWqg{cursor:pointer;}/*!sc*/
+@media (max-width:767px){.cCWWqg{margin-bottom:48px;}}/*!sc*/
+data-styled.g212[id="NoAutoDownload__DownloadCTA-sc-1s6mawl-3"]{content:"cCWWqg,"}/*!sc*/
+.dHhnqY{background-color:#222326;padding:70px 15px 50px;}/*!sc*/
+data-styled.g213[id="AllPlatforms__StyledSection-e8pgiu-0"]{content:"dHhnqY,"}/*!sc*/
+.cReXLC{text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}/*!sc*/
+data-styled.g214[id="AllPlatforms__Content-e8pgiu-1"]{content:"cReXLC,"}/*!sc*/
+@media (max-width:767px){.eJIejq{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;width:100%;}}/*!sc*/
+@media (min-width:1200px){.eJIejq{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.eJIejq ul + ul li:first-child:before{font-size:22px;content:'•';padding-left:14px;padding-right:14px;color:#1db954;}}/*!sc*/
+data-styled.g215[id="AllPlatforms__UlContainer-e8pgiu-2"]{content:"eJIejq,"}/*!sc*/
+.bIvwsj{padding-left:0;}/*!sc*/
+data-styled.g216[id="AllPlatforms__StyledUl-e8pgiu-3"]{content:"bIvwsj,"}/*!sc*/
+.gzhYGk{color:white;text-transform:uppercase;display:block;}/*!sc*/
+@media (min-width:768px){.gzhYGk{display:inline-block;margin-top:-6px;}}/*!sc*/
+@media (min-width:768px){.gzhYGk:not(:last-child):after{font-size:22px;content:'•';padding-left:14px;padding-right:14px;color:#1db954;}}/*!sc*/
+data-styled.g217[id="AllPlatforms__StyledLi-e8pgiu-4"]{content:"gzhYGk,"}/*!sc*/
+.kdYcsv{width:100%;max-width:560px;margin-bottom:20px;padding:0 40px;}/*!sc*/
+.kdYcsv img{width:100%;}/*!sc*/
+data-styled.g218[id="AllPlatforms__ImageContainer-e8pgiu-5"]{content:"kdYcsv,"}/*!sc*/
+.bWxwyA{background-color:#19e68c;padding:40px 15px 104px;}/*!sc*/
+data-styled.g224[id="DownloadCta__StyledSection-qizc33-0"]{content:"bWxwyA,"}/*!sc*/
+.cLsytm{text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}/*!sc*/
+@media (min-width:1200px){.cLsytm{-webkit-flex-direction:'column';-ms-flex-direction:'column';flex-direction:'column';}}/*!sc*/
+data-styled.g225[id="DownloadCta__Content-qizc33-1"]{content:"cLsytm,"}/*!sc*/
+.gIDRsP{display:inline-block;}/*!sc*/
+.gIDRsP img{height:40px;}/*!sc*/
+data-styled.g226[id="AppStoreLink-sc-1llmcrl-0"]{content:"gIDRsP,"}/*!sc*/
+.dPSzCM img{border-radius:5px;}/*!sc*/
+data-styled.g227[id="AmazonBadge__StyledAppStoreLink-oqjnv7-0"]{content:"dPSzCM,"}/*!sc*/
+.gVUKlW{background-color:white;padding:70px 15px;}/*!sc*/
+data-styled.g228[id="MobileUpsell__StyledSection-sc-1f3biua-0"]{content:"gVUKlW,"}/*!sc*/
+.Rztyo{text-align:center;}/*!sc*/
+data-styled.g229[id="MobileUpsell__Content-sc-1f3biua-1"]{content:"Rztyo,"}/*!sc*/
+.gvKVKQ{margin:10px;}/*!sc*/
+data-styled.g230[id="MobileUpsell__StyledAppleBadge-sc-1f3biua-2"]{content:"gvKVKQ,"}/*!sc*/
+.eGJMQI{margin:10px;}/*!sc*/
+data-styled.g231[id="MobileUpsell__StyledGoogleBadge-sc-1f3biua-3"]{content:"eGJMQI,"}/*!sc*/
+.iMOsjh{margin:10px;}/*!sc*/
+data-styled.g232[id="MobileUpsell__StyledWindowsBadge-sc-1f3biua-4"]{content:"iMOsjh,"}/*!sc*/
+.brbIFN{margin:10px;}/*!sc*/
+data-styled.g233[id="MobileUpsell__StyledAmazonBadge-sc-1f3biua-5"]{content:"brbIFN,"}/*!sc*/
+@-webkit-keyframes lbWRkT{0%{opacity:0;}100%{opacity:1;}}/*!sc*/
+@keyframes lbWRkT{0%{opacity:0;}100%{opacity:1;}}/*!sc*/
+data-styled.g235[id="sc-keyframes-lbWRkT"]{content:"lbWRkT,"}/*!sc*/
+@-webkit-keyframes dWurqy{0%{opacity:0;-webkit-transform:translate(-50%,50%);-ms-transform:translate(-50%,50%);transform:translate(-50%,50%);}100%{-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);opacity:1;}}/*!sc*/
+@keyframes dWurqy{0%{opacity:0;-webkit-transform:translate(-50%,50%);-ms-transform:translate(-50%,50%);transform:translate(-50%,50%);}100%{-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);opacity:1;}}/*!sc*/
+data-styled.g236[id="sc-keyframes-dWurqy"]{content:"dWurqy,"}/*!sc*/
+</style><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><title>Windows download - Spotify</title><meta name="description" content="Spotify is a digital music service that gives you access to millions of songs."/><meta name="keywords" content="Spotify, music, online, listen, streaming, play, digital, album, artist, playlist"/><meta property="fb:app_id" content="174829003346"/><meta property="og:title" content="Music for everyone."/><meta property="og:type" content="website"/><meta property="og:url" content="https://www.spotify.com/us/download/windows/"/><meta property="og:image" content="//www.scdn.co/i/_global/open-graph-default.png"/><meta property="og:image:secure_url" content="//www.scdn.co/i/_global/open-graph-default.png"/><meta property="og:description" content="Spotify is all the music you’ll ever need."/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Music for everyone."/><meta name="twitter:image" content="//www.scdn.co/i/_global/twitter_card-default.jpg"/><meta name="twitter:description" content="Spotify is all the music you’ll ever need."/><link rel="canonical" href="https://www.spotify.com/us/download/windows/"/><link rel="icon" href="//www.scdn.co/i/_global/favicon.png"/><meta name="next-head-count" content="18"/><link rel="preload" href="https://www-growth.scdn.co/_next/static/wzn4S9XsaN3AViqQS2Pfq/pages/_app.js" as="script" nonce="68844b471f8d408a9faec62fd4642112"/><link rel="preload" href="https://www-growth.scdn.co/_next/static/wzn4S9XsaN3AViqQS2Pfq/pages/%5Blocale%5D/download/%5Bplatform%5D.js" as="script" nonce="68844b471f8d408a9faec62fd4642112"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/runtime/webpack-f2bb5d9d0894ed2bf86f.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/framework.ca02aaa41ae9c341edba.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/commons.cd7e12e9cd624e76d632.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/b53cf9210a2fbaae415dfc6e40d52183f9fcbcf1.eea149df6753f7969f53.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/a759c104ff4c8a2b11fa4fe75244119d2a5101a8.a787cc7dd2af98a91cb9.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/bd43f79cd43b3c8909f6068dc3a90c2e2515c04e.3828a4124247dba81f20.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/runtime/main-321e004b70e2e2bf8b58.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/8ba8568205b502883514abfe6d827ee7a714119b.016f4109bc2798a1d431.js" as="script"/><link nonce="68844b471f8d408a9faec62fd4642112" rel="preload" href="https://www-growth.scdn.co/_next/static/chunks/93269d896f618b93c291178e90c247d56ec43fe5.28df1d457c4c54d313f1.js" as="script"/></head><body><div id="__next"><script nonce="68844b471f8d408a9faec62fd4642112">
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    language: 'en',
+    market: 'us',
+    loggedIn: Boolean(document.cookie.indexOf("authenticated=true") > -1),
+    userCountry: ''
+  });
+</script><script nonce="68844b471f8d408a9faec62fd4642112" src="https://www.googleoptimize.com/optimize.js?id=GTM-P9JKJ53"></script><style>span.svelte-1so9ic8{-ms-flex-negative:0;flex-shrink:0;font-size:10px;color:#919496}[dir] span.svelte-1so9ic8{padding:1em 0}[dir=ltr] span.svelte-1so9ic8{margin:0 15px 0 auto}[dir=rtl] span.svelte-1so9ic8{margin:0 auto 0 15px}@media(min-width:768px){span.svelte-1so9ic8{font-size:12px}}[dir=ltr] svg.svelte-184rsfv{margin:0 8px 0 0}[dir=ltr] [dir=rtl] svg.svelte-184rsfv,[dir=rtl] svg.svelte-184rsfv{margin:0 0 0 8px}[dir=rtl] [dir=rtl] svg.svelte-184rsfv{margin:0 8px 0 0}[dir=ltr] ul.svelte-19l7cif{margin:0 45px 0 0;padding:0 0 0 15px}[dir=rtl] ul.svelte-19l7cif{margin:0 0 0 45px;padding:0 15px 0 0}li.svelte-19l7cif{list-style:none;display:inline-block;line-height:normal;letter-spacing:0}[dir] li.svelte-19l7cif{padding:0}[dir=ltr] li.svelte-19l7cif{margin-right:24px}[dir=rtl] li.svelte-19l7cif{margin-left:24px}a.svelte-1ouzkfx{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-negative:0;flex-shrink:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center;white-space:nowrap;font-size:10px;text-decoration:none}[dir] a.svelte-1ouzkfx{padding:1em 0}@media(min-width:768px){a.svelte-1ouzkfx{font-size:12px}}[dir] a.mh-compact.svelte-1ouzkfx{padding:0}a.svelte-1ouzkfx:focus,a.svelte-1ouzkfx:hover{color:currentColor}[dir] dl.svelte-12h6dnj{padding:0 15px;margin:0}@media(min-width:768px){dl.svelte-12h6dnj{-webkit-box-flex:1;-ms-flex:1 0 0%;flex:1 0 0%}}dt.svelte-12h6dnj{color:#919496;font-size:12px;font-weight:900;line-height:1.4;letter-spacing:.08em;text-transform:uppercase}[dir] dt.svelte-12h6dnj{margin:50px 0 22px}@media(min-width:992px){[dir] dt.svelte-12h6dnj{margin:20px 0}}[dir] dd.svelte-12h6dnj{margin:0}a.svelte-12h6dnj{display:inline-block;font-size:16px;font-weight:400;line-height:1.5;text-decoration:none}[dir] a.svelte-12h6dnj{padding:3px 0 15px}a.svelte-12h6dnj:focus,a.svelte-12h6dnj:hover{color:currentColor}[dir] ul.svelte-1ad7r0v.svelte-1ad7r0v{margin:20px 0 0;padding:0}li.svelte-1ad7r0v.svelte-1ad7r0v{display:inline-block}[dir=ltr] li.svelte-1ad7r0v.svelte-1ad7r0v:not(:last-child){margin-right:15px}[dir=rtl] li.svelte-1ad7r0v.svelte-1ad7r0v:not(:last-child){margin-left:15px}a.svelte-1ad7r0v.svelte-1ad7r0v{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow:hidden;width:44px;height:44px}[dir] a.svelte-1ad7r0v.svelte-1ad7r0v{border-radius:50%;background-color:#222326}a.svelte-1ad7r0v.svelte-1ad7r0v:hover{color:currentColor}@media(min-width:992px){a.svelte-1ad7r0v.svelte-1ad7r0v{width:54px;height:54px}}a.svelte-1ad7r0v span.svelte-1ad7r0v{display:block;width:24px;height:24px}[dir] a.svelte-1ad7r0v .mh-social-icon-facebook.svelte-1ad7r0v{background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M448 0v448H0V0h448zM276.877 16h-1.127c-28.833 0-51.917 8.542-69.25 25.625-17.16 16.912-25.826 40.645-25.997 71.197l-.003.928v54.5h-63.75v74h63.75V432H257V242.25h63.5l9.75-74H257V121c0-12 2.5-21 7.5-27 4.923-5.908 14.37-8.907 28.342-8.998L293.5 85h39.25V19c-13.085-1.938-31.336-2.938-54.754-2.997l-1.12-.003z'/%3E%3C/svg%3E"),currentColor}[dir] a.svelte-1ad7r0v .mh-social-icon-instagram.svelte-1ad7r0v{background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M0 230.126v-.793c.016 55.974.294 63.853 1.344 87.03 3.733 81.349 48.87 126.56 130.293 130.293C155.55 447.739 163.165 448 224 448H0V230.126zm229.242-189.75c55.006.014 62.368.256 85.291 1.307 60.704 2.762 89.059 31.565 91.822 91.821 1.05 22.905 1.275 30.266 1.287 85.272v10.487c-.014 55.022-.255 62.365-1.287 85.27-2.782 60.2-31.062 89.059-91.822 91.822-23.159 1.06-30.399 1.297-87.005 1.306h-7.054c-56.572-.009-63.848-.245-86.989-1.306-60.853-2.782-89.058-31.715-91.821-91.84-1.05-22.905-1.292-30.249-1.306-85.271v-8.77c.01-56.572.263-63.83 1.306-86.989 2.781-60.237 31.061-89.058 91.821-91.821 22.923-1.032 30.268-1.274 85.273-1.287h10.484zm-5.242 68.6c-63.523 0-115.024 51.501-115.024 115.024S160.477 339.043 224 339.043 339.024 287.54 339.024 224c0-63.523-51.501-115.024-115.024-115.024zm0 40.357c41.235 0 74.667 33.432 74.667 74.667 0 41.253-33.432 74.667-74.667 74.667S149.333 265.253 149.333 224c0-41.235 33.432-74.667 74.667-74.667zM343.579 77.56c-14.859 0-26.899 12.04-26.899 26.88s12.04 26.88 26.899 26.88c14.84 0 26.861-12.04 26.861-26.88s-12.021-26.88-26.861-26.88zM448 224v224H224c60.835 0 68.47-.261 92.363-1.344 81.274-3.733 126.597-48.87 130.274-130.293C447.74 292.469 448 284.835 448 224zm-1.344-92.344c-3.659-81.275-48.85-126.56-130.275-130.293C293.187.294 285.307.016 229.333 0H448v224c0-60.835-.261-68.45-1.344-92.344zM0 0h218.667c-55.973.016-63.834.294-87.011 1.344C50.306 5.077 5.096 50.214 1.363 131.637.299 154.722.019 162.62 0 217.873V0z'/%3E%3C/svg%3E"),currentColor}[dir] a.svelte-1ad7r0v .mh-social-icon-twitter.svelte-1ad7r0v{background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M448 0v448H0V0h448zM299.75 64c-22.333 0-41.375 7.875-57.125 23.625S219 122.417 219 144.75c0 6 .667 12.167 2 18.5-33-1.667-63.958-9.958-92.875-24.875S74.667 103.583 54.5 78.75c-7.333 12.5-11 26.083-11 40.75 0 13.833 3.25 26.667 9.75 38.5 6.5 11.833 15.25 21.417 26.25 28.75-12.717-.49-24.637-3.77-35.76-9.841L43 176.5v1c0 19.5 6.125 36.625 18.375 51.375s27.708 24.042 46.375 27.875a83.54 83.54 0 01-21.25 2.75c-4.667 0-9.75-.417-15.25-1.25 5.167 16.167 14.667 29.458 28.5 39.875 13.833 10.417 29.5 15.792 47 16.125-29.333 23-62.75 34.5-100.25 34.5-7.167 0-13.667-.333-19.5-1C64.5 371.917 105.833 384 151 384c28.667 0 55.583-4.542 80.75-13.625s46.667-21.25 64.5-36.5 33.208-32.792 46.125-52.625c12.917-19.833 22.542-40.542 28.875-62.125 6.333-21.583 9.5-43.208 9.5-64.875 0-4.667-.083-8.167-.25-10.5 15.833-11.5 29.333-25.417 40.5-41.75-15.5 6.667-31 10.833-46.5 12.5C392 104 403.833 89.167 410 70c-16 9.5-33.083 16-51.25 19.5-16-17-35.667-25.5-59-25.5z'/%3E%3C/svg%3E"),currentColor}footer.svelte-13h39ov{font-size:16px;font-family:Circular,spotify-circular,Helvetica,Arial,sans-serif;font-weight:400}[dir] footer.svelte-13h39ov{background:#000;padding:50px 0 20px}@media(min-width:992px){[dir] footer.svelte-13h39ov{padding:80px 0 50px}}.svelte-13h39ov:lang(ar),.svelte-13h39ov:lang(ur){font-family:circular-spotify-arabic,Circular,spotify-circular,noto-arabic,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif!important;letter-spacing:0!important}.svelte-13h39ov:lang(he){font-family:circular-spotify-hebrew,Circular-hbr,Helvetica,Arial,sans-serif!important}.svelte-13h39ov:lang(he),.svelte-13h39ov:lang(ru){letter-spacing:0!important}.svelte-13h39ov:lang(ru){font-family:circular-spotify-cyrillic,Circular-cyr,Helvetica,Arial,sans-serif!important}.svelte-13h39ov:lang(ko){font-family:Circular,Helvetica,Arial,sans-serif!important}nav.svelte-13h39ov{width:100%}[dir] nav.svelte-13h39ov{margin:0 auto}@media(min-width:768px){nav.svelte-13h39ov{width:750px}}@media(min-width:992px){nav.svelte-13h39ov{width:970px}}@media(min-width:1200px){nav.svelte-13h39ov{width:1170px}}.mh-brand.svelte-13h39ov{display:block;-webkit-box-sizing:border-box;box-sizing:border-box}[dir] .mh-brand.svelte-13h39ov{padding:0 15px}@media(min-width:768px){.mh-brand.svelte-13h39ov{width:16.66666667%}}@media(min-width:992px){.mh-brand.svelte-13h39ov{min-height:346px}}.mh-top-links.svelte-13h39ov{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media(min-width:768px){.mh-top-links.svelte-13h39ov{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}}[dir] .mh-social-icons.svelte-13h39ov{margin:120px 15px 15px}.mh-country.svelte-13h39ov{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}[dir] .mh-country.svelte-13h39ov{margin:0 15px}.mh-bottom-links.svelte-13h39ov{display:-webkit-box;display:-ms-flexbox;display:flex}@media(min-width:992px){nav.svelte-13h39ov{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.mh-brand.svelte-13h39ov,.mh-top-links.svelte-13h39ov{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}.mh-brand.svelte-13h39ov{width:16.66666667%}.mh-top-links.svelte-13h39ov{width:50%}[dir=ltr] .mh-social-icons.svelte-13h39ov{margin:0 15px 0 auto}[dir=rtl] .mh-social-icons.svelte-13h39ov{margin:0 auto 0 15px}.mh-bottom-links.svelte-13h39ov,.mh-country.svelte-13h39ov{width:100%}}button.svelte-nh39uj.svelte-nh39uj{display:inline-block;position:relative;z-index:1}[dir] button.svelte-nh39uj.svelte-nh39uj{border:none;background-color:transparent}[dir=ltr] button.svelte-nh39uj.svelte-nh39uj{padding:0 0 1px 9px}[dir=rtl] button.svelte-nh39uj.svelte-nh39uj{padding:0 9px 1px 0}button.svelte-nh39uj.svelte-nh39uj:focus{outline:0}.mh-sr-only.svelte-nh39uj.svelte-nh39uj{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}[dir] .mh-sr-only.svelte-nh39uj.svelte-nh39uj{margin:-1px;padding:0;border:0}.mh-icon-bar.svelte-nh39uj.svelte-nh39uj{display:block;height:3px;width:22px;transition:-webkit-transform .2s;-webkit-transition:-webkit-transform .2s;transition:transform .2s;transition:transform .2s,-webkit-transform .2s}[dir] .mh-icon-bar.svelte-nh39uj.svelte-nh39uj{background-color:currentColor;border-radius:1px;-webkit-transform-origin:21px;-ms-transform-origin:21px;transform-origin:21px;-webkit-transition:-webkit-transform .2s}[dir] .mh-icon-bar+.mh-icon-bar.svelte-nh39uj.svelte-nh39uj{margin-top:4px}.mh-icon-bar.svelte-nh39uj.svelte-nh39uj:nth-child(3){-webkit-transition:opacity .2s;transition:opacity .2s}[dir] .mh-icon-bar.svelte-nh39uj.svelte-nh39uj:nth-child(3){-webkit-transition:opacity .2s}[dir=ltr] button.svelte-nh39uj:not(.mh-menu-closed) .mh-icon-bar.svelte-nh39uj:nth-child(2){-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}[dir=rtl] button.svelte-nh39uj:not(.mh-menu-closed) .mh-icon-bar.svelte-nh39uj:nth-child(2){-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}button.svelte-nh39uj:not(.mh-menu-closed) .mh-icon-bar.svelte-nh39uj:nth-child(3){opacity:0}[dir=ltr] button.svelte-nh39uj:not(.mh-menu-closed) .mh-icon-bar.svelte-nh39uj:nth-child(4){-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}[dir=rtl] button.svelte-nh39uj:not(.mh-menu-closed) .mh-icon-bar.svelte-nh39uj:nth-child(4){-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}svg.svelte-13ynk3t{fill:currentColor;width:12px;height:12px}[dir=ltr] svg.svelte-13ynk3t{margin:auto 0 auto 6px}[dir=rtl] svg.svelte-13ynk3t{margin:auto 6px auto 0}.mh-message-bar.svelte-1x96mcl{position:relative;z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}[dir] .mh-message-bar.svelte-1x96mcl{background:#1d75de}.mh-container.svelte-1x96mcl{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}[dir] .mh-container.svelte-1x96mcl{padding:15px}@media(min-width:768px){.mh-container.svelte-1x96mcl{width:750px}}@media(min-width:992px){.mh-container.svelte-1x96mcl{width:970px}}@media(min-width:1200px){.mh-container.svelte-1x96mcl{width:1170px}}.mh-html-text.svelte-1x96mcl{font-family:Circular,spotify-circular,Helvetica,Arial,sans-serif;color:#fff;font-size:12px}.mh-html-text.svelte-1x96mcl a{color:#fff;text-decoration:underline}.mh-close.svelte-1x96mcl{font-size:18px;font-family:Circular,spotify-circular,Helvetica,Arial,sans-serif;font-weight:700;color:#fff;-ms-flex-negative:0;flex-shrink:0}[dir] .mh-close.svelte-1x96mcl{padding:0;cursor:pointer;background:transparent;border:0}[dir=ltr] .mh-close.svelte-1x96mcl{margin-left:30px}[dir=rtl] .mh-close.svelte-1x96mcl{margin-right:30px}.mh-close.svelte-1x96mcl:focus{outline:none}[dir] .mh-close.svelte-1x96mcl:focus{border-bottom:2px solid #fff;margin-bottom:-2px}.mh-screen-reader-only.svelte-1x96mcl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}[dir] .mh-screen-reader-only.svelte-1x96mcl{margin:-1px;padding:0;border:0}.mh-active-acknowledge.svelte-1x96mcl{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;line-height:12px}[dir] .mh-active-acknowledge.svelte-1x96mcl{margin-top:15px;padding:10px 32px;border-radius:500px;border-width:0;cursor:pointer;-webkit-transition-property:background-color,-webkit-box-shadow;transition-property:background-color,-webkit-box-shadow;transition-property:background-color,box-shadow;transition-property:background-color,box-shadow,-webkit-box-shadow;-webkit-transition-duration:.3s;transition-duration:.3s}[dir] .mh-active-acknowledge.svelte-1x96mcl:active{background-color:#ccc;-webkit-box-shadow:none;box-shadow:none}.mh-active-acknowledge.svelte-1x96mcl:focus{outline:0}[dir] .mh-active-acknowledge.svelte-1x96mcl:focus{background-color:#ccc;-webkit-box-shadow:0 0 0 2px rgba(0,0,0,.1) inset;box-shadow:inset 0 0 0 2px rgba(0,0,0,.1)}.mh-active-acknowledge-label.svelte-1x96mcl{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}li.svelte-vf0pv9.svelte-vf0pv9{display:inline-block;font-size:16px;line-height:inherit;letter-spacing:0}[dir=ltr] li.svelte-vf0pv9:last-child>a.svelte-vf0pv9{padding-right:0}[dir=rtl] li.svelte-vf0pv9:last-child>a.svelte-vf0pv9{padding-left:0}a.svelte-vf0pv9.svelte-vf0pv9{display:block;text-decoration:none;font-weight:700}[dir] a.svelte-vf0pv9.svelte-vf0pv9{padding:28px 17px}a.svelte-vf0pv9.svelte-vf0pv9:focus,a.svelte-vf0pv9.svelte-vf0pv9:hover{color:currentColor}@media(max-width:991px){li.svelte-vf0pv9.svelte-vf0pv9{display:block}[dir] li.svelte-vf0pv9.svelte-vf0pv9{margin:0}a.svelte-vf0pv9.svelte-vf0pv9{display:block;line-height:1;font-weight:700;font-size:36px}[dir] a.svelte-vf0pv9.svelte-vf0pv9{cursor:pointer;padding:0 0 25px}a.mh-tier-2.svelte-vf0pv9.svelte-vf0pv9{font-weight:400;font-size:28px}}@media(max-width:479px){a.svelte-vf0pv9.svelte-vf0pv9{font-size:30px}a.mh-tier-2.svelte-vf0pv9.svelte-vf0pv9{font-size:24px}}li.svelte-1i2hclv{display:inline-block;height:16px;width:1px}[dir] li.svelte-1i2hclv{background:currentColor;margin:auto 17px}@media(max-width:991px){li.svelte-1i2hclv{height:2px;width:20px}[dir] li.svelte-1i2hclv{margin:18px 0 40px}}nav.mh-desktop.svelte-4ldyho.svelte-4ldyho{display:none}.mh-mobile-menu.svelte-4ldyho.svelte-4ldyho{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.mh-mobile-menu.svelte-4ldyho>a.svelte-4ldyho{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.mh-mobile-menu.svelte-4ldyho nav.svelte-4ldyho{-webkit-box-sizing:border-box;box-sizing:border-box;height:100vh;overflow-x:hidden;overflow-y:scroll;-webkit-overflow-scrolling:touch;position:fixed;top:0;width:447px;max-width:100vw;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}[dir] .mh-mobile-menu.svelte-4ldyho nav.svelte-4ldyho{background-color:#000;border-width:0;margin:0;padding:38px}[dir=ltr] .mh-mobile-menu.svelte-4ldyho nav.svelte-4ldyho{right:0}[dir=rtl] .mh-mobile-menu.svelte-4ldyho nav.svelte-4ldyho{left:0}.mh-mobile-menu.svelte-4ldyho .mh-brand-wrapper.svelte-4ldyho{display:inline-block;width:89px}[dir] .mh-mobile-menu.svelte-4ldyho .mh-brand-wrapper.svelte-4ldyho{margin-top:13px}.mh-mobile-menu.svelte-4ldyho .mh-overlay.svelte-4ldyho{display:block;width:100vw;height:100vh;position:fixed;top:0}[dir] .mh-mobile-menu.svelte-4ldyho .mh-overlay.svelte-4ldyho{background:rgba(0,0,0,.75)}[dir=ltr] .mh-mobile-menu.svelte-4ldyho .mh-overlay.svelte-4ldyho{left:0}[dir=rtl] .mh-mobile-menu.svelte-4ldyho .mh-overlay.svelte-4ldyho{right:0}ul.svelte-4ldyho.svelte-4ldyho{display:inline;list-style:none}[dir] ul.svelte-4ldyho.svelte-4ldyho{margin:0;padding:0}@media(min-width:992px){nav.mh-desktop.svelte-4ldyho.svelte-4ldyho{display:inline-block}.mh-mobile-menu.svelte-4ldyho.svelte-4ldyho{display:none}ul.svelte-4ldyho.svelte-4ldyho{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}}.mh-footer-primary,.mh-header-primary{color:#fff}.mh-header-secondary{color:#d9dadc}.mh-footer-secondary{color:#919496}.mh-footer-hover,.mh-header-hover{color:#1ed760}.mh-header-hover{z-index:2}header.svelte-1irxfym.svelte-1irxfym{position:relative;top:0;font-family:Circular,spotify-circular,Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.5;min-height:54px}[dir] header.svelte-1irxfym.svelte-1irxfym{background:#000}[dir=ltr] header.svelte-1irxfym.svelte-1irxfym,[dir=rtl] header.svelte-1irxfym.svelte-1irxfym{right:0;left:0}header.mh-default-z-index.svelte-1irxfym.svelte-1irxfym{z-index:1020}header.svelte-1irxfym .mh-skip-link.svelte-1irxfym{color:#121212;clip:rect(1px,1px,1px,1px);display:block;font-weight:700;height:1px;overflow:hidden;position:absolute;text-decoration:none;text-transform:uppercase;width:1px;z-index:1}[dir] header.svelte-1irxfym .mh-skip-link.svelte-1irxfym{background:#fff;border-radius:500px;margin:16px;padding:16px 48px}header.svelte-1irxfym .mh-skip-link.svelte-1irxfym:focus{clip:auto;height:auto;width:auto}@media(min-width:992px){header.mh-transparent.svelte-1irxfym.svelte-1irxfym:not(.mh-semitransparent-top){-webkit-transition:background-color .2s linear;transition:background-color .2s linear;min-height:80px}[dir] header.mh-transparent.svelte-1irxfym.svelte-1irxfym:not(.mh-semitransparent-top){background-color:transparent;-webkit-transition:background-color .2s linear}[dir] header.mh-semitransparent-top.svelte-1irxfym.svelte-1irxfym,[dir] header.mh-transparent:not(.mh-semitransparent-top).mh-sticky.svelte-1irxfym.svelte-1irxfym{background-color:rgba(0,0,0,.6)}}header.mh-fixed.svelte-1irxfym.svelte-1irxfym{position:fixed}.svelte-1irxfym.svelte-1irxfym:lang(ar),.svelte-1irxfym.svelte-1irxfym:lang(ur){font-family:circular-spotify-arabic,Circular,spotify-circular,noto-arabic,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif!important;letter-spacing:0!important}.svelte-1irxfym.svelte-1irxfym:lang(he){font-family:circular-spotify-hebrew,Circular-hbr,Helvetica,Arial,sans-serif!important}.svelte-1irxfym.svelte-1irxfym:lang(he),.svelte-1irxfym.svelte-1irxfym:lang(ru){letter-spacing:0!important}.svelte-1irxfym.svelte-1irxfym:lang(ru){font-family:circular-spotify-cyrillic,Circular-cyr,Helvetica,Arial,sans-serif!important}.svelte-1irxfym.svelte-1irxfym:lang(ko){font-family:Circular,Helvetica,Arial,sans-serif!important}.mh-brand-wrapper.svelte-1irxfym.svelte-1irxfym{display:inline-block}[dir] .mh-brand-wrapper.svelte-1irxfym.svelte-1irxfym{margin-top:13px}@media(min-width:992px){[dir] .mh-brand-wrapper.svelte-1irxfym.svelte-1irxfym{margin-top:20px}}.mh-container.svelte-1irxfym.svelte-1irxfym{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-sizing:border-box;box-sizing:border-box;max-width:750px;height:54px}[dir] .mh-container.svelte-1irxfym.svelte-1irxfym{margin:0 auto;padding:0 15px}@media(min-width:992px){.mh-container.svelte-1irxfym.svelte-1irxfym{max-width:970px;height:80px}}@media(min-width:1200px){.mh-container.svelte-1irxfym.svelte-1irxfym{max-width:1170px}}li.svelte-kdyqkb{position:relative;font-size:16px;line-height:inherit;letter-spacing:0}button.svelte-kdyqkb,li.svelte-kdyqkb{display:-webkit-box;display:-ms-flexbox;display:flex}button.svelte-kdyqkb{-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-decoration:none;font:inherit;font-weight:700;outline:none}[dir] button.svelte-kdyqkb{background-color:transparent;border:none;padding:20px 0;cursor:pointer}[dir=ltr] button.svelte-kdyqkb{margin-left:7px}[dir=rtl] button.svelte-kdyqkb{margin-right:7px}button.svelte-kdyqkb:focus,button.svelte-kdyqkb:hover{color:currentColor}div.mh-profile-title.svelte-kdyqkb{display:inline-block}[dir] div.mh-profile-title.svelte-kdyqkb{margin:auto 0}span.svelte-kdyqkb{display:inline-block}[dir=ltr] span.svelte-kdyqkb{margin:auto 0 auto 10px}[dir=rtl] span.svelte-kdyqkb{margin:auto 10px auto 0}div.mh-dropdown-menu.svelte-kdyqkb{display:none}div.mh-dropdown-menu.mh-open.svelte-kdyqkb{display:block;position:absolute;top:100%}[dir] div.mh-dropdown-menu.mh-open.svelte-kdyqkb{margin-top:-8px}[dir=ltr] div.mh-dropdown-menu.mh-open.svelte-kdyqkb{right:-17px}[dir=rtl] div.mh-dropdown-menu.mh-open.svelte-kdyqkb{left:-17px}@media(max-width:991px){button.svelte-kdyqkb{display:none}div.mh-dropdown-menu.mh-open.svelte-kdyqkb,div.mh-dropdown-menu.svelte-kdyqkb{display:block}}ul.svelte-11h1c9{display:block;list-style:none}[dir] ul.svelte-11h1c9{padding:0}li.svelte-11h1c9{display:list-item}[dir] li.svelte-11h1c9{padding:0 0 22px}a.svelte-11h1c9{display:inline-block;line-height:1;font-weight:400;font-size:24px;text-decoration:none}[dir] a.svelte-11h1c9{padding:0}a.svelte-11h1c9:focus,a.svelte-11h1c9:hover{color:currentColor}@media(min-width:480px){a.svelte-11h1c9{font-size:28px}}@media(min-width:992px){ul.svelte-11h1c9{min-width:160px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}[dir] ul.svelte-11h1c9{margin:2px 0 0;background-color:#fff;border-radius:3px;-webkit-box-shadow:0 0 30px 0 rgba(0,0,0,.2);box-shadow:0 0 30px 0 rgba(0,0,0,.2);padding:10px 0}ul.svelte-11h1c9:before{content:"";display:block;position:absolute;width:0;height:0;top:-12px}[dir] ul.svelte-11h1c9:before{border-bottom:16px solid #fff}[dir=ltr] ul.svelte-11h1c9:before{right:7px}[dir=ltr] ul.svelte-11h1c9:before,[dir=rtl] ul.svelte-11h1c9:before{border-left:16px solid transparent;border-right:16px solid transparent}[dir=rtl] ul.svelte-11h1c9:before{left:7px}li.svelte-11h1c9{display:block;letter-spacing:0}[dir] li.svelte-11h1c9{padding:0}a.svelte-11h1c9{display:block;line-height:1.5;font-size:16px;font-weight:700;color:#000}[dir] a.svelte-11h1c9{padding:4px 16px 3px}a.mh-subtle.svelte-11h1c9{color:#919496}a.mh-subtle.svelte-11h1c9:focus,a.mh-subtle.svelte-11h1c9:hover,a.svelte-11h1c9:focus,a.svelte-11h1c9:hover{color:currentColor}}.suppress-scroll{overflow:hidden}div.svelte-8gzfq1,img.svelte-8gzfq1{display:block;-webkit-box-sizing:border-box;box-sizing:border-box;width:34px;height:34px;display:inline-block}[dir] div.svelte-8gzfq1,[dir] img.svelte-8gzfq1{border-radius:50%;-webkit-box-shadow:0 0 5px 2px rgba(0,0,0,.1);box-shadow:0 0 5px 2px rgba(0,0,0,.1)}[dir=ltr] div.svelte-8gzfq1,[dir=ltr] img.svelte-8gzfq1{margin:auto 6px auto 10px}[dir=rtl] div.svelte-8gzfq1,[dir=rtl] img.svelte-8gzfq1{margin:auto 10px auto 6px}@media(min-width:992px){div.svelte-8gzfq1,img.svelte-8gzfq1{width:40px;height:40px}}img.svelte-8gzfq1{-o-object-fit:cover;object-fit:cover}[dir] div.svelte-8gzfq1{border:2px solid}svg.svelte-8gzfq1{fill:currentColor;height:100%;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}[dir] svg.svelte-8gzfq1{padding:7px}a.svelte-18o1xvt{display:inline-block;height:27px;width:89px}[dir] a.svelte-18o1xvt{margin:0}@media(min-width:992px){a.svelte-18o1xvt{height:40px;width:132px}}span.svelte-1gcdbl9{width:100%;height:100%;font:0/0 a;display:inline-block}[dir] span.svelte-1gcdbl9{text-shadow:none;border:0}g.svelte-1gcdbl9{fill:currentColor}header.mh-header-hover{z-index:2;}</style><style>
+/**
+ * Encore Foundation - 2.0.1
+ * 
+ * The contents of this file is owned and generated by the Global Design Systems team.
+ * If you require making changes to the values stored here please reach out
+ * to #encore on Slack.
+ * 
+ * Links:
+ * 
+ * - Source & Documentation: https://ghe.spotify.net/encore/foundation
+ * 
+ * Tack!
+ * 
+ * Global Design Systems
+ * encore.spotify.net
+ */
+
+/* Lifecycle status: experimental */
+.encore-dark-theme,
+.encore-dark-theme .encore-base-set {
+  --background-base: #121212; /* The default background color of the base set. */
+  --background-highlight: #181818; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #090909; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #262626; /* The default background color for elevated elements in the base set. */
+  --background-elevated-highlight: #2c2c2c;
+  --background-elevated-press: #202020;
+  --background-tinted-base: rgba(255, 255, 255, 0.08); /* The default background color for tinted elements in the base set. */
+  --background-tinted-highlight: rgba(255, 255, 255, 0.11);
+  --background-tinted-press: rgba(255, 255, 255, 0.06);
+  --background-unsafe-for-small-text-base: #121212; /* fallback */
+  --background-unsafe-for-small-text-highlight: #181818; /* fallback */
+  --background-unsafe-for-small-text-press: #090909; /* fallback */
+  --text-base: #ffffff; /* The default text color of the base set. */
+  --text-subdued: #aaaaaa; /* A subdued variant of the base text color. */
+  --text-bright-accent: #1ed760; /* A bright text color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --text-negative: #eb6774; /* A text color associated with negativity. Often used for errors, destructive actions, or to highlight negative metrics or data. */
+  --text-warning: #f59b23; /* A text color associated with caution. Often used to highlight potential problems or slightly negative metrics or data. */
+  --text-positive: #1ed760; /* A text color associated with system announcements and notifications. */
+  --text-announcement: #5b95db;
+  --essential-base: #ffffff; /* The default essential color of the base set. */
+  --essential-subdued: #757575; /* A subdued variant of the base essential color. */
+  --essential-bright-accent: #1ed760; /* A bright essential color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --essential-negative: #e22134; /* An essential color associated with negativity. Often used for errors, destructive actions, or to highlight negative metrics or data. */
+  --essential-warning: #f59b23; /* An essential color associated with caution. Often used to highlight potential problems or slightly negative metrics or data */
+  --essential-positive: #1ed760; /* An essential color associated with positivity. Often used for success states, or to highlight positive metrics or data. */
+  --essential-announcement: #2e77d0; /* An essential color associated with system announcements and notifications. */
+  --decorative-base: #ffffff; /* The default decorative color of the base set. */
+  --decorative-subdued: #292929; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-bright-accent-set {
+  --background-base: #1ed760; /* The default background color of the brightAccent set. */
+  --background-highlight: #1fdf63; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #1dd05d; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #1ed760; /* fallback */
+  --background-elevated-highlight: #1fdf63; /* fallback */
+  --background-elevated-press: #1dd05d; /* fallback */
+  --background-tinted-base: #1ed760; /* fallback */
+  --background-tinted-highlight: #1fdf63; /* fallback */
+  --background-tinted-press: #1dd05d; /* fallback */
+  --background-unsafe-for-small-text-base: #1ed760; /* fallback */
+  --background-unsafe-for-small-text-highlight: #1fdf63; /* fallback */
+  --background-unsafe-for-small-text-press: #1dd05d; /* fallback */
+  --text-base: #000000; /* The default text color of the brightAccent set. */
+  --text-subdued: #000000; /* fallback */
+  --text-bright-accent: #000000; /* fallback */
+  --text-negative: #000000; /* fallback */
+  --text-warning: #000000; /* fallback */
+  --text-positive: #000000; /* fallback */
+  --text-announcement: #000000; /* fallback */
+  --essential-base: #000000; /* The default essential color of the brightAccent set. */
+  --essential-subdued: #000000; /* fallback */
+  --essential-bright-accent: #000000; /* fallback */
+  --essential-negative: #000000; /* fallback */
+  --essential-warning: #000000; /* fallback */
+  --essential-positive: #000000; /* fallback */
+  --essential-announcement: #000000; /* fallback */
+  --decorative-base: #000000; /* The default decorative color of the brightAccent set. */
+  --decorative-subdued: #1abb54; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-negative-set {
+  --background-base: #e22134; /* The default background color of the negative set. */
+  --background-highlight: #e32b3d; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #db1d2f; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #e22134; /* fallback */
+  --background-elevated-highlight: #e32b3d; /* fallback */
+  --background-elevated-press: #db1d2f; /* fallback */
+  --background-tinted-base: #e22134; /* fallback */
+  --background-tinted-highlight: #e32b3d; /* fallback */
+  --background-tinted-press: #db1d2f; /* fallback */
+  --background-unsafe-for-small-text-base: #e22134; /* fallback */
+  --background-unsafe-for-small-text-highlight: #e32b3d; /* fallback */
+  --background-unsafe-for-small-text-press: #db1d2f; /* fallback */
+  --text-base: #ffffff; /* The default text color of the negative set. */
+  --text-subdued: #ffffff; /* fallback */
+  --text-bright-accent: #ffffff; /* fallback */
+  --text-negative: #ffffff; /* fallback */
+  --text-warning: #ffffff; /* fallback */
+  --text-positive: #ffffff; /* fallback */
+  --text-announcement: #ffffff; /* fallback */
+  --essential-base: #ffffff; /* The default essential color of the negative set. */
+  --essential-subdued: #ffffff; /* fallback */
+  --essential-bright-accent: #ffffff; /* fallback */
+  --essential-negative: #ffffff; /* fallback */
+  --essential-warning: #ffffff; /* fallback */
+  --essential-positive: #ffffff; /* fallback */
+  --essential-announcement: #ffffff; /* fallback */
+  --decorative-base: #ffffff; /* The default decorative color of the negative set. */
+  --decorative-subdued: #e74555; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-warning-set {
+  --background-base: #f59b23; /* The default background color of the warning set. */
+  --background-highlight: #f6a232; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #f49515; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #f59b23; /* fallback */
+  --background-elevated-highlight: #f6a232; /* fallback */
+  --background-elevated-press: #f49515; /* fallback */
+  --background-tinted-base: #f59b23; /* fallback */
+  --background-tinted-highlight: #f6a232; /* fallback */
+  --background-tinted-press: #f49515; /* fallback */
+  --background-unsafe-for-small-text-base: #f59b23; /* fallback */
+  --background-unsafe-for-small-text-highlight: #f6a232; /* fallback */
+  --background-unsafe-for-small-text-press: #f49515; /* fallback */
+  --text-base: #000000; /* The default text color of the warning set. */
+  --text-subdued: #000000; /* fallback */
+  --text-bright-accent: #000000; /* fallback */
+  --text-negative: #000000; /* fallback */
+  --text-warning: #000000; /* fallback */
+  --text-positive: #000000; /* fallback */
+  --text-announcement: #000000; /* fallback */
+  --essential-base: #000000; /* The default essential color of the warning set. */
+  --essential-subdued: #000000; /* fallback */
+  --essential-bright-accent: #000000; /* fallback */
+  --essential-negative: #000000; /* fallback */
+  --essential-warning: #000000; /* fallback */
+  --essential-positive: #000000; /* fallback */
+  --essential-announcement: #000000; /* fallback */
+  --decorative-base: #000000; /* The default decorative color of the warning set. */
+  --decorative-subdued: #dd830a; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-positive-set {
+  --background-base: #1ed760; /* The default background color of the positive set. */
+  --background-highlight: #1fdf63; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #1dd05d; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #1ed760; /* fallback */
+  --background-elevated-highlight: #1fdf63; /* fallback */
+  --background-elevated-press: #1dd05d; /* fallback */
+  --background-tinted-base: #1ed760; /* fallback */
+  --background-tinted-highlight: #1fdf63; /* fallback */
+  --background-tinted-press: #1dd05d; /* fallback */
+  --background-unsafe-for-small-text-base: #1ed760; /* fallback */
+  --background-unsafe-for-small-text-highlight: #1fdf63; /* fallback */
+  --background-unsafe-for-small-text-press: #1dd05d; /* fallback */
+  --text-base: #000000; /* The default text color of the positive set. */
+  --text-subdued: #000000; /* fallback */
+  --text-bright-accent: #000000; /* fallback */
+  --text-negative: #000000; /* fallback */
+  --text-warning: #000000; /* fallback */
+  --text-positive: #000000; /* fallback */
+  --text-announcement: #000000; /* fallback */
+  --essential-base: #000000; /* The default essential color of the positive set. */
+  --essential-subdued: #000000; /* fallback */
+  --essential-bright-accent: #000000; /* fallback */
+  --essential-negative: #000000; /* fallback */
+  --essential-warning: #000000; /* fallback */
+  --essential-positive: #000000; /* fallback */
+  --essential-announcement: #000000; /* fallback */
+  --decorative-base: #000000; /* The default decorative color of the positive set. */
+  --decorative-subdued: #1abb54; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-announcement-set {
+  --background-base: #2d75cd; /* The default background color of the announcement set. */
+  --background-highlight: #327ad2; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #2c71c5; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #2d75cd; /* fallback */
+  --background-elevated-highlight: #327ad2; /* fallback */
+  --background-elevated-press: #2c71c5; /* fallback */
+  --background-tinted-base: #2d75cd; /* fallback */
+  --background-tinted-highlight: #327ad2; /* fallback */
+  --background-tinted-press: #2c71c5; /* fallback */
+  --background-unsafe-for-small-text-base: #2d75cd; /* fallback */
+  --background-unsafe-for-small-text-highlight: #327ad2; /* fallback */
+  --background-unsafe-for-small-text-press: #2c71c5; /* fallback */
+  --text-base: #ffffff; /* The default text color of the announcement set. */
+  --text-subdued: #ffffff; /* fallback */
+  --text-bright-accent: #ffffff; /* fallback */
+  --text-negative: #ffffff; /* fallback */
+  --text-warning: #ffffff; /* fallback */
+  --text-positive: #ffffff; /* fallback */
+  --text-announcement: #ffffff; /* fallback */
+  --essential-base: #ffffff; /* The default essential color of the announcement set. */
+  --essential-subdued: #ffffff; /* fallback */
+  --essential-bright-accent: #ffffff; /* fallback */
+  --essential-negative: #ffffff; /* fallback */
+  --essential-warning: #ffffff; /* fallback */
+  --essential-positive: #ffffff; /* fallback */
+  --essential-announcement: #ffffff; /* fallback */
+  --decorative-base: #ffffff; /* The default decorative color of the announcement set. */
+  --decorative-subdued: #4989d7; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-inverted-dark-set {
+  --background-base: #000000; /* The default background color of the invertedDark set. */
+  --background-highlight: #0b0b0b; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #141414; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #000000; /* fallback */
+  --background-elevated-highlight: #0b0b0b; /* fallback */
+  --background-elevated-press: #141414; /* fallback */
+  --background-tinted-base: #000000; /* fallback */
+  --background-tinted-highlight: #0b0b0b; /* fallback */
+  --background-tinted-press: #141414; /* fallback */
+  --background-unsafe-for-small-text-base: #000000; /* fallback */
+  --background-unsafe-for-small-text-highlight: #0b0b0b; /* fallback */
+  --background-unsafe-for-small-text-press: #141414; /* fallback */
+  --text-base: #ffffff; /* The default text color of the invertedDark set. */
+  --text-subdued: #8e8e8e; /* A subdued variant of the base text color. */
+  --text-bright-accent: #1ed760; /* A bright text color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --text-negative: #ffffff; /* fallback */
+  --text-warning: #ffffff; /* fallback */
+  --text-positive: #ffffff; /* fallback */
+  --text-announcement: #ffffff; /* fallback */
+  --essential-base: #ffffff; /* The default essential color of the invertedDark set. */
+  --essential-subdued: #5e5e5e; /* A subdued variant of the base essential color. */
+  --essential-bright-accent: #1ed760; /* A bright essential color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --essential-negative: #ffffff; /* fallback */
+  --essential-warning: #ffffff; /* fallback */
+  --essential-positive: #ffffff; /* fallback */
+  --essential-announcement: #ffffff; /* fallback */
+  --decorative-base: #ffffff; /* The default decorative color of the invertedDark set. */
+  --decorative-subdued: #1f1f1f; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-inverted-light-set {
+  --background-base: #ffffff; /* The default background color of the invertedLight set. */
+  --background-highlight: #f6f6f6; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #ededed; /* A background color that indicates the press state of a component. */
+  --background-elevated-base: #ffffff; /* fallback */
+  --background-elevated-highlight: #f6f6f6; /* fallback */
+  --background-elevated-press: #ededed; /* fallback */
+  --background-tinted-base: #ffffff; /* fallback */
+  --background-tinted-highlight: #f6f6f6; /* fallback */
+  --background-tinted-press: #ededed; /* fallback */
+  --background-unsafe-for-small-text-base: #ffffff; /* fallback */
+  --background-unsafe-for-small-text-highlight: #f6f6f6; /* fallback */
+  --background-unsafe-for-small-text-press: #ededed; /* fallback */
+  --text-base: #000000; /* The default text color of the invertedLight set. */
+  --text-subdued: #5e5e5e; /* A subdued variant of the base text color. */
+  --text-bright-accent: #12823a; /* A bright text color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --text-negative: #000000; /* fallback */
+  --text-warning: #000000; /* fallback */
+  --text-positive: #000000; /* fallback */
+  --text-announcement: #000000; /* fallback */
+  --essential-base: #000000; /* The default essential color of the invertedLight set. */
+  --essential-subdued: #8e8e8e; /* A subdued variant of the base essential color. */
+  --essential-bright-accent: #17a449; /* A bright essential color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --essential-negative: #000000; /* fallback */
+  --essential-warning: #000000; /* fallback */
+  --essential-positive: #000000; /* fallback */
+  --essential-announcement: #000000; /* fallback */
+  --decorative-base: #000000; /* The default decorative color of the invertedLight set. */
+  --decorative-subdued: #dedede; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-muted-accent-set {
+  --background-base: #000000; /* The default background color of the mutedAccent set. */
+  --background-highlight: #0b0b0b; /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: #141414; /* A background color that indicates the press state of a component. */
+  --background-tinted-base: rgba(255, 255, 255, 0.11); /* The default background color for tinted elements in the mutedAccent set. */
+  --background-tinted-highlight: rgba(255, 255, 255, 0.13);
+  --background-tinted-press: rgba(255, 255, 255, 0.09);
+  --background-elevated-base: #000000; /* fallback */
+  --background-elevated-highlight: #0b0b0b; /* fallback */
+  --background-elevated-press: #141414; /* fallback */
+  --background-unsafe-for-small-text-base: #000000; /* fallback */
+  --background-unsafe-for-small-text-highlight: #0b0b0b; /* fallback */
+  --background-unsafe-for-small-text-press: #141414; /* fallback */
+  --text-base: #ffffff; /* The default text color of the mutedAccent set. */
+  --text-subdued: #9f9f9f; /* A subdued variant of the base text color. */
+  --text-bright-accent: #1ed760; /* A bright text color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --text-negative: #ffffff; /* fallback */
+  --text-warning: #ffffff; /* fallback */
+  --text-positive: #ffffff; /* fallback */
+  --text-announcement: #ffffff; /* fallback */
+  --essential-base: #ffffff; /* The default essential color of the mutedAccent set. */
+  --essential-subdued: #6c6c6c; /* A subdued variant of the base essential color. */
+  --essential-bright-accent: #1ed760; /* A bright essential color that contrasts with the set’s background colors. Often used to give key interactive elements more prominence. */
+  --essential-negative: #ffffff; /* fallback */
+  --essential-warning: #ffffff; /* fallback */
+  --essential-positive: #ffffff; /* fallback */
+  --essential-announcement: #ffffff; /* fallback */
+  --decorative-base: #ffffff; /* The default decorative color of the mutedAccent set. */
+  --decorative-subdued: #1f1f1f; /* A subdued variant of the base decorative color. */
+}
+
+.encore-dark-theme .encore-over-media-set {
+  --background-base: rgba(0, 0, 0, 0.55); /* The default background color of the overMedia set. */
+  --background-highlight: rgba(0, 0, 0, 0.53); /* A background color that indicates the hover state of a component, or adds some oomph to a focus state. */
+  --background-press: rgba(0, 0, 0, 0.56); /* A background color that indicates the press state of a component. */
+  --background-unsafe-for-small-text-base: rgba(0, 0, 0, 0.42); /* The default background color for Unsafe for Small Text elements in the Over Media set. */
+  --background-unsafe-for-small-text-highlight: rgba(0, 0, 0, 0.4);
+  --background-unsafe-for-small-text-press: rgba(0, 0, 0, 0.44);
+  --background-elevated-base: rgba(0, 0, 0, 0.55); /* fallback */
+  --background-elevated-highlight: rgba(0, 0, 0, 0.53); /* fallback */
+  --background-elevated-press: rgba(0, 0, 0, 0.56); /* fallback */
+  --background-tinted-base: rgba(0, 0, 0, 0.55); /* fallback */
+  --background-tinted-highlight: rgba(0, 0, 0, 0.53); /* fallback */
+  --background-tinted-press: rgba(0, 0, 0, 0.56); /* fallback */
+  --text-base: #ffffff; /* The default text color of the overMedia set. */
+  --text-subdued: #ffffff; /* fallback */
+  --text-bright-accent: #ffffff; /* fallback */
+  --text-negative: #ffffff; /* fallback */
+  --text-warning: #ffffff; /* fallback */
+  --text-positive: #ffffff; /* fallback */
+  --text-announcement: #ffffff; /* fallback */
+  --essential-base: #ffffff; /* The default essential color of the overMedia set. */
+  --essential-subdued: #ffffff; /* fallback */
+  --essential-bright-accent: #ffffff; /* fallback */
+  --essential-negative: #ffffff; /* fallback */
+  --essential-warning: #ffffff; /* fallback */
+  --essential-positive: #ffffff; /* fallback */
+  --essential-announcement: #ffffff; /* fallback */
+  --decorative-base: #ffffff; /* The default decorative color of the overMedia set. */
+  --decorative-subdued: rgba(255, 255, 255, 0.13); /* A subdued variant of the base decorative color. */
+}
+</style><div>
+<header role="banner" class="mh-header-hover z-index-class svelte-1irxfym"><a class="mh-skip-link svelte-1irxfym" href="#start-of-content">Skip to content</a>
+  <div class="mh-container svelte-1irxfym"><div class="mh-brand-wrapper svelte-1irxfym"><a href="https://www.spotify.com/us/" class="mh-header-primary svelte-18o1xvt" data-tracking="{&#34;category&#34;: &#34;menu&#34;, &#34;action&#34;: &#34;spotify-logo&#34;}"><span class="mh-header-primary svelte-1gcdbl9"><svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet"><g fill-rule="evenodd" class="svelte-1gcdbl9"><path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path></g></svg>
+  Spotify
+</span>
+</a></div>
+    
+
+
+<nav role="navigation" class="mh-desktop svelte-4ldyho" aria-label="Desktop navigation"><ul class="svelte-4ldyho"></ul></nav>
+
+<div class="mh-mobile-menu svelte-4ldyho">
+
+  
+
+  
+</div></div></header>
+<div id="start-of-content" class="svelte-1irxfym"></div>
+
+</div><main class="encore-dark-theme"><section class="DownloadCta__StyledSection-qizc33-0 bWxwyA"><div class="MaxWidthContainer__Container-sc-1j93vm2-0 bjalva"><div class="DownloadCta__Content-qizc33-1 cLsytm"><div class="DownloadComputer__Container-wxrydg-0 cKXoWq NoAutoDownload__StyledComputer-sc-1s6mawl-2 gWDJur"><img src="https://www-growth.scdn.co/static/download/laptop.svg" alt="" class="DownloadComputer__Computer-wxrydg-1 iedzgj"/><img src="https://www-growth.scdn.co/static/download/green-circle.svg" alt="" class="DownloadComputer__GreenCircle-wxrydg-2 jmaUoe"/><img src="https://www-growth.scdn.co/static/download/green-success-check.svg" alt="" class="DownloadComputer__SuccessCheck-wxrydg-3 cDJXWb"/></div><h1 class="Type__TypeElement-sc-9snywk-0 jmMyZK NoAutoDownload__StyledType-sc-1s6mawl-1 cDmTkv">Download Spotify</h1><p class="Type__TypeElement-sc-9snywk-0 fLKBXt NoAutoDownload__StyledText-sc-1s6mawl-0 iluXgb">Play millions of songs and podcasts on your device.</p><button data-testid="download-cta" class="Button-sc-8cs45s-0 jNFemE NoAutoDownload__DownloadCTA-sc-1s6mawl-3 cCWWqg"><div class="ButtonInner-peijbp-0 cfGvV encore-inverted-light-set">Download</div><div class="ButtonFocus-tupyzb-0 bWXdpj"></div></button></div></div></section><section class="MobileUpsell__StyledSection-sc-1f3biua-0 gVUKlW"><div class="MaxWidthContainer__Container-sc-1j93vm2-0 bjalva"><div class="MobileUpsell__Content-sc-1f3biua-1 Rztyo"><h3 class="Type__TypeElement-sc-9snywk-0 izWExp">Bring your music to mobile and tablet, too.</h3><p class="Type__TypeElement-sc-9snywk-0 fLKBXt">Listening on your phone or tablet is free, easy, and fun.</p><div><a data-testid="apple-store-badge" data-ga-action="click" data-ga-category="download" data-ga-label="app_store_apple" href="https://itunes.apple.com/app/spotify-music/id324684580" rel="noopener noreferrer" target="_blank" class="AppStoreLink-sc-1llmcrl-0 gIDRsP MobileUpsell__StyledAppleBadge-sc-1f3biua-2 gvKVKQ"><img src="https://www-growth.scdn.co/static/badges/svgs/apple/badge-en.svg" alt="Download on the App Store"/></a><a data-testid="google-store-badge" data-ga-action="click" data-ga-category="download" data-ga-label="app_store_google" href="https://play.google.com/store/apps/details?id=com.spotify.music" rel="noopener noreferrer" target="_blank" class="AppStoreLink-sc-1llmcrl-0 gIDRsP MobileUpsell__StyledGoogleBadge-sc-1f3biua-3 eGJMQI"><img src="https://www-growth.scdn.co/static/badges/svgs/google/badge-en.svg" style="margin:-8px;height:57px" alt="Get it on Google Play"/></a><a data-testid="windows-store-badge" data-ga-action="click" data-ga-category="download_badge" data-ga-label="windows" href="https://www.microsoft.com/store/p/spotify-music/9ncbcszsjrsb?cid=spotifyweb-windows10-store-direct" rel="noopener noreferrer" target="_blank" class="AppStoreLink-sc-1llmcrl-0 gIDRsP MobileUpsell__StyledWindowsBadge-sc-1f3biua-4 iMOsjh"><img src="https://www-growth.scdn.co/static/badges/microsoft-windows/en.png" alt="Get it from Microsoft"/></a><a data-testid="amazon-store-badge" data-ga-action="click" data-ga-category="download" data-ga-label="app_store_amazon" href="https://www.amazon.com/Spotify-Music/dp/B00KLBR6IC" rel="noopener noreferrer" target="_blank" class="AppStoreLink-sc-1llmcrl-0 AmazonBadge__StyledAppStoreLink-oqjnv7-0 gIDRsP dPSzCM MobileUpsell__StyledAmazonBadge-sc-1f3biua-5 brbIFN"><img src="https://www-growth.scdn.co/static/badges/amazon/us.png" alt="Available at Amazon Appstore"/></a></div></div></div></section><section class="AllPlatforms__StyledSection-e8pgiu-0 dHhnqY"><div class="MaxWidthContainer__Container-sc-1j93vm2-0 bjalva"><div class="AllPlatforms__Content-e8pgiu-1 cReXLC"><div class="AllPlatforms__ImageContainer-e8pgiu-5 kdYcsv"><img src="https://www-growth.scdn.co/static/download/all-devices.svg" alt="devices"/></div><h3 class="Type__TypeElement-sc-9snywk-0 jqhzrS">One account, listen everywhere.</h3><div class="AllPlatforms__UlContainer-e8pgiu-2 eJIejq"><ul class="TypeList__TypeListComponent-sc-1mv2mac-0-ul AllPlatforms__StyledUl-e8pgiu-3 kYmGgj bIvwsj"><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm">Mobile</span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm">Computer</span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm">Tablet</span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm"><a href="https://spotify-everywhere.com/collections/car-audio" class="Link-sc-1ci8k3a-0 izgLyK TextLinkGreen-sc-1oeb75i-0 jufLwI">Car</a></span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm"><a href="https://spotify-everywhere.com/pages/gaming/" class="Link-sc-1ci8k3a-0 izgLyK TextLinkGreen-sc-1oeb75i-0 jufLwI">PlayStation<sup>®</sup></a></span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm"><a href="https://spotify-everywhere.com/pages/gaming/" class="Link-sc-1ci8k3a-0 izgLyK TextLinkGreen-sc-1oeb75i-0 jufLwI">Xbox</a></span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm"><a href="https://spotify-everywhere.com/collections/tv/" class="Link-sc-1ci8k3a-0 izgLyK TextLinkGreen-sc-1oeb75i-0 jufLwI">TV</a></span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm"><a href="https://spotify-everywhere.com/collections/wireless-speakers/" class="Link-sc-1ci8k3a-0 izgLyK TextLinkGreen-sc-1oeb75i-0 jufLwI">Speaker</a></span></li><li class="Type__TypeElement-sc-9snywk-0 fXoIYq TypeListItem-sc-1nnjqmx-0 AllPlatforms__StyledLi-e8pgiu-4 fnhCGM gzhYGk"><span class="Type__TypeElement-sc-9snywk-0 kIRhmm"><a href="https://open.spotify.com/" class="Link-sc-1ci8k3a-0 izgLyK TextLinkGreen-sc-1oeb75i-0 jufLwI">Web Player</a></span></li></ul></div></div></div></section></main><div class="MastheadFooter__StyledFooterContainer-xgjsls-0 gXRpxH"><div><footer id="mh-footer" class="mh-footer-hover svelte-13h39ov"><nav class="svelte-13h39ov"><div class="mh-brand svelte-13h39ov"><a href="https://www.spotify.com/us/" class="mh-footer-primary svelte-18o1xvt"><span class="mh-footer-primary svelte-1gcdbl9"><svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet"><g fill-rule="evenodd" class="svelte-1gcdbl9"><path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path></g></svg>
+  Spotify
+</span>
+</a></div>
+
+    <div class="mh-top-links svelte-13h39ov"><dl class="svelte-12h6dnj"><dt class="svelte-12h6dnj">Company</dt><dd class="svelte-12h6dnj"><a href="https://www.spotify.com/us/about-us/contact/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="about">About</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://www.lifeatspotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="jobs">Jobs</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://newsroom.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="press">For the Record</a>
+    </dd></dl><dl class="svelte-12h6dnj"><dt class="svelte-12h6dnj">Communities</dt><dd class="svelte-12h6dnj"><a href="https://artists.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="artists">For Artists</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://developer.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="developers">Developers</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://ads.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="advertising">Advertising</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://investors.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="investors">Investors</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://spotifyforvendors.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="vendors">Vendors</a>
+    </dd></dl><dl class="svelte-12h6dnj"><dt class="svelte-12h6dnj">Useful links</dt><dd class="svelte-12h6dnj"><a href="https://support.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="help">Support</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://open.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="play">Web Player</a>
+    </dd><dd class="svelte-12h6dnj"><a href="https://www.spotify.com/us/free/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="free">Free Mobile App</a>
+    </dd></dl></div>
+
+    <div class="mh-social-icons svelte-13h39ov"><ul class="svelte-1ad7r0v"><li class="svelte-1ad7r0v"><a href="https://instagram.com/spotify" title="Instagram" class="mh-footer-primary svelte-1ad7r0v"><span role="img" aria-label="Instagram" class="mh-social-icon-instagram svelte-1ad7r0v"></span></a>
+  </li><li class="svelte-1ad7r0v"><a href="https://twitter.com/spotify" title="Twitter" class="mh-footer-primary svelte-1ad7r0v"><span role="img" aria-label="Twitter" class="mh-social-icon-twitter svelte-1ad7r0v"></span></a>
+  </li><li class="svelte-1ad7r0v"><a href="https://www.facebook.com/Spotify" title="Facebook" class="mh-footer-primary svelte-1ad7r0v"><span role="img" aria-label="Facebook" class="mh-social-icon-facebook svelte-1ad7r0v"></span></a>
+  </li>
+</ul></div>
+
+    <div class="mh-country svelte-13h39ov"><a href="https://www.spotify.com/us/select-your-country-region/" class="mh-footer-secondary mh-compact svelte-1ouzkfx"><svg width="12" height="13" viewBox="0 0 12 13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="svelte-184rsfv"><path d="M6 0.624023C8.07255 0.624023 9.90309 1.68041 10.9815 3.28299C10.9819 3.28367 10.9822 3.28403 10.9825 3.28438C11.0029 3.30998 11.0209 3.33677 11.0363 3.36446C11.6453 4.30352 12 5.42315 12 6.62402C12 9.92265 9.32436 12.6079 6.02962 12.624C6.02732 12.6241 6.02495 12.6241 6.02258 12.6241L6 12.624C2.69149 12.624 0 9.93253 0 6.62402C0 3.31571 2.69149 0.624023 6 0.624023ZM6 1.78528C5.80411 1.78528 5.61089 1.79698 5.42102 1.81972C5.39755 1.91375 5.34896 2.0023 5.2765 2.07641L3.75157 3.63714C3.64024 3.75103 3.48978 3.812 3.33616 3.812C3.26752 3.812 3.19848 3.7998 3.1318 3.77483C2.91623 3.69359 2.76891 3.49277 2.75652 3.26265L2.74444 3.04725C1.77228 3.93289 1.16125 5.20844 1.16125 6.62402C1.16125 6.90513 1.18535 7.1807 1.23158 7.44881L2.11909 8.18538C2.12814 8.19266 2.13699 8.20053 2.14564 8.20859L2.91981 8.93437C2.99003 9.00007 3.04274 9.08228 3.07323 9.17374L3.37633 10.0793L3.83343 10.3016H4.86133C5.01514 10.3016 5.16285 10.3625 5.27182 10.4715L6.25621 11.4561C8.80567 11.3224 10.8387 9.20617 10.8387 6.62402C10.8387 5.8726 10.6666 5.16063 10.3596 4.52549L9.45716 5.24616L9.62455 5.6122C9.65956 5.68812 9.67726 5.77053 9.67726 5.85393V6.60784C9.67726 6.78014 9.60075 6.94358 9.46857 7.05393C9.3362 7.16407 9.16154 7.2103 8.99219 7.17902L8.05556 7.00751L8.52643 8.28855C8.58347 8.44354 8.57167 8.61544 8.49417 8.76139L7.67162 10.3097C7.58211 10.4783 7.41628 10.5907 7.22969 10.6136L7.15866 10.6179C6.94387 10.6179 6.74659 10.4991 6.64589 10.3093L6.25231 9.56742C6.24563 9.55444 6.23913 9.54126 6.23323 9.52788L5.91027 8.78833L5.5222 8.25412L4.15443 8.44118C4.0551 8.45475 3.9538 8.44255 3.86057 8.40518L2.68811 7.93765C2.46526 7.84855 2.3201 7.632 2.32244 7.39204L2.33879 5.84783C2.34095 5.65035 2.44304 5.46763 2.61022 5.3624L4.57554 4.12641C4.81058 3.97869 5.11781 4.01783 5.30801 4.22062L5.95905 4.91395L6.7818 5.23062L7.05303 5.13365L5.90181 3.48933C5.77849 3.3131 5.76256 3.08317 5.86051 2.89179L6.41732 1.80311C6.27976 1.7913 6.14057 1.78528 6 1.78528Z" fill="#8F8F8F"></path></svg>
+  USA
+
+</a></div>
+
+    <div class="mh-bottom-links svelte-13h39ov"><ul class="svelte-19l7cif"><li class="svelte-19l7cif"><a href="https://www.spotify.com/us/legal/" class="mh-footer-secondary  svelte-1ouzkfx">Legal
+</a>
+    </li><li class="svelte-19l7cif"><a href="https://www.spotify.com/us/privacy/" class="mh-footer-secondary  svelte-1ouzkfx">Privacy Center
+</a>
+    </li><li class="svelte-19l7cif"><a href="https://www.spotify.com/us/legal/privacy-policy/" class="mh-footer-secondary  svelte-1ouzkfx">Privacy Policy
+</a>
+    </li><li class="svelte-19l7cif"><a href="https://www.spotify.com/us/legal/cookies-policy/" class="mh-footer-secondary  svelte-1ouzkfx">Cookies
+</a>
+    </li><li class="svelte-19l7cif"><a href="https://www.spotify.com/us/legal/privacy-policy/#s3" class="mh-footer-secondary  svelte-1ouzkfx">About Ads
+</a>
+    </li><li class="svelte-19l7cif"><a href="https://www.spotify.com/us/legal/California-privacy-disclosure/" class="mh-footer-secondary  svelte-1ouzkfx">Additional CA Privacy Disclosures
+</a>
+    </li>
+</ul>
+      <span class="svelte-1so9ic8">© 2022 Spotify AB
+</span></div></nav>
+</footer></div></div></div><script id="__NEXT_DATA__" type="application/json" nonce="68844b471f8d408a9faec62fd4642112">{"props":{"pageProps":{"locals":{"isNonPodcastMarket":false,"language":"en","market":"us","mastheadFooter":{"brand":{"href":"https://www.spotify.com/us/","alt":"Spotify"},"topLinkGroups":[{"title":"Company","links":[{"title":"About","href":"https://www.spotify.com/us/about-us/contact/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"about"}},{"title":"Jobs","href":"https://www.lifeatspotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"jobs"}},{"title":"For the Record","href":"https://newsroom.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"press"}}]},{"title":"Communities","links":[{"title":"For Artists","href":"https://artists.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"artists"}},{"title":"Developers","href":"https://developer.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"developers"}},{"title":"Advertising","href":"https://ads.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"advertising"}},{"title":"Investors","href":"https://investors.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"investors"}},{"title":"Vendors","href":"https://spotifyforvendors.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"vendors"}}]},{"title":"Useful links","links":[{"title":"Support","href":"https://support.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"help"}},{"title":"Web Player","href":"https://open.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"play"}},{"title":"Free Mobile App","href":"https://www.spotify.com/us/free/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"free"}}]}],"socialLinks":[{"name":"Instagram","icon":"instagram","href":"https://instagram.com/spotify"},{"name":"Twitter","icon":"twitter","href":"https://twitter.com/spotify"},{"name":"Facebook","icon":"facebook","href":"https://www.facebook.com/Spotify"}],"country":{"name":"USA","flagCode":"us","href":"https://www.spotify.com/us/select-your-country-region/"},"bottomLinks":[{"title":"Legal","href":"https://www.spotify.com/us/legal/"},{"title":"Privacy Center","href":"https://www.spotify.com/us/privacy/"},{"title":"Privacy Policy","href":"https://www.spotify.com/us/legal/privacy-policy/"},{"title":"Cookies","href":"https://www.spotify.com/us/legal/cookies-policy/"},{"title":"About Ads","href":"https://www.spotify.com/us/legal/privacy-policy/#s3"},{"title":"Additional CA Privacy Disclosures","href":"https://www.spotify.com/us/legal/California-privacy-disclosure/"}],"copyrightNotice":"© 2022 Spotify AB"},"mastheadHeader":{"navigation":{"brand":{"href":"https://www.spotify.com/us/","alt":"Spotify","dataAttributes":{"data-tracking":"{\"category\": \"menu\", \"action\": \"spotify-logo\"}"}},"skipLinkText":"Skip to content","desktopAriaLabel":"Desktop navigation","mobileAriaLabel":"Mobile navigation","colorClassNames":{},"scrollColorClassNames":{},"zIndexClassName":"z-index-class","transparent":false,"topTransparencyMode":"transparent","fixed":false}},"translations":{"common":{"meta_description":"Spotify is a digital music service that gives you access to millions of songs.","meta_keywords":"Spotify, music, online, listen, streaming, play, digital, album, artist, playlist","og_title":"Music for everyone.","og_description":"Spotify is all the music you’ll ever need."},"download":{"finish_up":"Click the install file to finish up.","free_easy_fun":"Listening on your phone or tablet is free, easy, and fun.","launching_microsoft_store":"Launching Microsoft Store...","mobile_too":"Bring your music to mobile and tablet, too.","mac_download_page_title":"Mac download - Spotify","windows_download_page_title":"Windows download - Spotify","linux_download_page_title":"Spotify for Linux","ios_download_page_title":"Download - Spotify","android_download_page_title":"Download - Spotify","wphone_download_page_title":"Download - Spotify","other_download_page_title":"Free Download for your Platform","try_again":"If your download didn't start, \u003ca {{downloadAttributes}} href=\"{{downloadUrl}}\"\u003etry again\u003c/a\u003e.","having_issues_microsoft":"Having issues? \u003ca {{attributes}} href=\"{{microsoftStoreUrl}}\"\u003eVisit the Microsoft Store\u003c/a\u003e to download.","car":"Car","computer":"Computer","mobile":"Mobile","one_account":"One account, listen everywhere.","speaker":"Speaker","tablet":"Tablet","tv":"TV","web_player":"Web Player","phone":"Phone","gaming":"Gaming","wearables":"Wearables","desktop":"Desktop","current":"Current","download_spotify":"Download Spotify","download_spotify_period":"Download Spotify.","other_platforms":"Spotify for other platforms","thanks_for_downloading":"Thanks for downloading Spotify.","apple_badge":"Download on the App Store","google_badge":"Get it on Google Play","windows_badge":"Get it from Microsoft","amazon_badge":"Available at Amazon Appstore","play_songs_podcasts":"Play millions of songs and podcasts on your device.","play_songs":"Play millions of songs on your device.","download":"Download","try_downloading_again":"Your download should start automatically. Didn't work? \u003ca {{downloadAttributes}} href=\"{{downloadUrl}}\"\u003eTry downloading again.\u003c/a\u003e","explore_the_ways":"Explore all the ways you can listen to Spotify at home, in the car, and on the move.","explore_the_ways_link_label":"Learn more about Spotify Everywhere.","spotify_desktop":"Spotify for desktop","spotify_desktop_podcasts":"Spotify: Music and podcasts","spotify_mobile":"Spotify for phone or tablet","spotify_mobile_podcasts":"Spotify: Music and podcasts","play_songs_free_desktop":"Play millions of songs on your desktop for free.","play_songs_free_desktop_podcasts":"Play millions of songs and podcasts on your desktop for free.","play_songs_free_mobile":"Play millions of songs on your phone or tablet for free.","play_songs_free_mobile_podcasts":"Play millions of songs and podcasts on your phone or tablet for free.","meet_our_family_of_apps":"Meet our family of apps.","spotify_stations":"Spotify Stations","spotify_stations_description":"Nonstop streaming music radio, in beta. Create your own stations by artist, genre and mood. Sign up free, or login in with your Spotify account.","spotify_kids":"Spotify Kids","spotify_kids_description":"Let children explore the world of sound with the new Spotify Kids app. Exclusive with your Spotify Premium Family subscription.","spotify_lite":"Spotify Lite","spotify_lite_description":"Discover a world of music with Spotify Lite. The app is small, so you'll save space on your phone and save data when you use it on the go.","only_available_on_android":"Only available on Android.","spotify_for_smart_speakers":"Spotify for smart speakers","spotify_for_smart_speakers_description":"Use your voice to control Spotify on smart speakers.","spotify_for_tv":"Spotify for TV","spotify_for_tv_description":"Get the music you love on the big screen.","spotify_for_tv_description_podcasts":"Get the music and podcasts you love on the big screen.","spotify_web_player":"Spotify web player","spotify_web_player_description":"All the music you love, on the web. No app download needed.","spotify_web_player_description_podcasts":"All the music and podcasts you love, on the web. No app download needed.","learn_more":"Learn more","listen_now":"Listen now","one_account_listen_everywhere":"One account, listen everywhere."}},"url":"https://www.spotify.com/us/download/windows"}},"__N_SSG":true},"page":"/[locale]/download/[platform]","query":{"locale":"us","platform":"windows"},"buildId":"wzn4S9XsaN3AViqQS2Pfq","assetPrefix":"https://www-growth.scdn.co","nextExport":false,"isFallback":false,"gsp":true,"appGip":true}</script><script nonce="68844b471f8d408a9faec62fd4642112" nomodule="" src="https://www-growth.scdn.co/_next/static/runtime/polyfills-44f31557e3022c319aec.js"></script><script async="" data-next-page="/_app" src="https://www-growth.scdn.co/_next/static/wzn4S9XsaN3AViqQS2Pfq/pages/_app.js" nonce="68844b471f8d408a9faec62fd4642112"></script><script async="" data-next-page="/[locale]/download/[platform]" src="https://www-growth.scdn.co/_next/static/wzn4S9XsaN3AViqQS2Pfq/pages/%5Blocale%5D/download/%5Bplatform%5D.js" nonce="68844b471f8d408a9faec62fd4642112"></script><script src="https://www-growth.scdn.co/_next/static/runtime/webpack-f2bb5d9d0894ed2bf86f.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/framework.ca02aaa41ae9c341edba.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/commons.cd7e12e9cd624e76d632.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/b53cf9210a2fbaae415dfc6e40d52183f9fcbcf1.eea149df6753f7969f53.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/a759c104ff4c8a2b11fa4fe75244119d2a5101a8.a787cc7dd2af98a91cb9.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/bd43f79cd43b3c8909f6068dc3a90c2e2515c04e.3828a4124247dba81f20.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/runtime/main-321e004b70e2e2bf8b58.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/8ba8568205b502883514abfe6d827ee7a714119b.016f4109bc2798a1d431.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/chunks/93269d896f618b93c291178e90c247d56ec43fe5.28df1d457c4c54d313f1.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/wzn4S9XsaN3AViqQS2Pfq/_buildManifest.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script><script src="https://www-growth.scdn.co/_next/static/wzn4S9XsaN3AViqQS2Pfq/_ssgManifest.js" nonce="68844b471f8d408a9faec62fd4642112" async=""></script></body></html>

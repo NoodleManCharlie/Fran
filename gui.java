@@ -9,7 +9,7 @@ public class gui {
         int height = 100;
         for(int  i = 0; i <= mods.length - 1; i++)
         {
-            height += 35;
+            height += 15;
         }
         return height;
     }
@@ -18,21 +18,9 @@ public class gui {
         JFrame frame = new JFrame("Fran Downloader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        String[] mods = {"beans", "ben", "flying"};
+        String[] mods = {"beans", "ben", "flying", "beans", "ben", "flying", "beans", "ben", "flying", "beans", "ben", "flying", "flying"};
 
         frame.setSize(250, getSize(mods));
-
-        //Creating the MenuBar and adding components
-        /*JMenuBar mb = new JMenuBar();
-        JMenu m1 = new JMenu("FILE");
-        JMenu m2 = new JMenu("Help");
-        mb.add(m1);
-        mb.add(m2);
-        JMenuItem m11 = new JMenuItem("Open");
-        JMenuItem m22 = new JMenuItem("Save as");
-        m1.add(m11);
-        m1.add(m22);*/
-
 
         //Creating the panel at bottom and adding components
         JPanel panel = new JPanel(); // the panel is not visible in output
@@ -45,7 +33,7 @@ public class gui {
         // Text Area at the Center
         JPanel modList = new JPanel();
         JPanel modList2 = new JPanel();
-        modList2.setLayout(new GridLayout(mods.length, 3));
+        modList2.setLayout(new GridLayout(mods.length / 3, 3));
         JLabel list = new JLabel("List Of Mods");
         JLabel mod;
         modList.add(list);
