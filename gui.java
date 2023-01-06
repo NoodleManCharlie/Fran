@@ -103,7 +103,14 @@ public class gui {
     {
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
-            downloadFile(entry.getValue(), entry.getKey() + ".jar");
+            new File file = new File(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + entry.getKey() + ".jar"));
+
+            if(!file.exists())
+            {
+                downloadFile(entry.getValue(), entry.getKey() + ".jar");
+            }
+
+            Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar");
         }
     }
 
@@ -111,7 +118,7 @@ public class gui {
         URL url = new URL(urlString);
 
         try (InputStream in = url.openStream()) {
-            Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/.../" + fileName));
+            Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + fileName));
         }
     }
 }
