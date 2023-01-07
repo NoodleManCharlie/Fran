@@ -6,8 +6,6 @@ import java.io.InputStream;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Dictionary;
-import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -15,14 +13,13 @@ public class gui {
 
     public static void main(String args[]){
 
-        Map<String, String> mods = new LinkedHashMap<String,String>();
+        //Creating HashMap of the mods and their links
+        Map<String, String> mods = new LinkedHashMap<String, String>();
         putting(mods);
 
         //Creating the Frame
         JFrame frame = new JFrame("Fran Downloader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        //String[] mods = {"beans", "ben", "flying", "beans", "ben", "flying", "beans", "ben", "flying", "beans", "ben", "flying", "flying"};
 
         frame.setSize(250, getSize(mods));
 
@@ -44,12 +41,6 @@ public class gui {
 
         //Adding Components to the frame.s
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
-        /*for (int i = 0; i <= mods.size() - 1; i++)  
-        {
-            mod = new JLabel((String) mods.get(i));
-            modList2.add(mod);
-            //frame.getContentPane().add(BorderLayout.CENTER, mod);
-        }*/
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
             mod = new JLabel("- " + entry.getKey());
@@ -59,9 +50,6 @@ public class gui {
         frame.getContentPane().add(BorderLayout.NORTH, modList);
         frame.getContentPane().add(BorderLayout.CENTER, modList2);
         frame.setVisible(true);
-
-        //String[] urlsAlways = {"https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar", };
-        //String[] customUrls = {""};
 
         cancel.addActionListener(new ActionListener() {
             @Override
