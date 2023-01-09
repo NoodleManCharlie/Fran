@@ -91,6 +91,7 @@ public class gui {
     {
         String[] contains;
 
+        //Getting all the mods currently in the folder
         FilenameFilter filter = new FilenameFilter() 
         {
             @Override
@@ -102,6 +103,8 @@ public class gui {
 
         contains = f.list(filter);
 
+        //Printing all the mods (In the future moving the mods out of the 
+        //folder the ensure it is just the mods contained in the modpack)
         for(String path : contains)
         {
             System.out.println(path);
