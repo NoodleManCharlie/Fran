@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
+import java.io.FilenameFilter;
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.nio.file.Files;
@@ -11,7 +13,7 @@ import java.util.Map;
 
 public class gui {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         //Creating a home that the system can hold mods that the user has previously installed 
         //without deleting them so the mods do not have to be downloaded again in the future
@@ -30,9 +32,9 @@ public class gui {
 
         //Creating buttons
         JPanel panel = new JPanel(); // the panel is not visible in output
-        JButton download = new JButton("Download");
+        JButton configure = new JButton("Configure");
         JButton cancel = new JButton("Cancel");
-        panel.add(download);
+        panel.add(configure);
         panel.add(cancel);
 
         //Creating the Mod list section
@@ -63,11 +65,11 @@ public class gui {
             }
         });
         
-        download.addActionListener(new ActionListener() {
+        configure.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    download(mods);
+                    configure(mods);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
@@ -86,30 +88,12 @@ public class gui {
         return height;
     }
 
-    //download method is for Configuring the folders and calling the right methods.
-    public static void download(Map<String, String> mods) throws Exception
+    //configure method is for Configuring the folders and calling the right methods.
+    public static void configure(Map<String, String> mods) throws Exception
     {
-        String[] contains;
+        clearing();
 
-        //Getting all the mods currently in the folder
-        FilenameFilter filter = new FilenameFilter() 
-        {
-            @Override
-            public boolean accept(File f, String name) 
-            {
-                return name.endsWith(".jar");
-            }
-        };
-
-        contains = f.list(filter);
-
-        //Printing all the mods (In the future moving the mods out of the 
-        //folder the ensure it is just the mods contained in the modpack)
-        for(String path : contains)
-        {
-            System.out.println(path);
-        }
-
+        //Download
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
             File file = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar");
@@ -125,6 +109,33 @@ public class gui {
                 Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
             }
 
+        }
+    }
+
+    //clears out all mods so only the mods in the modpack will be in the mods folder
+    public static void clearing() throws IOException
+    {
+        File modLocation = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/");
+
+        //Getting all the mods currently in the folder
+        FilenameFilter filter = new FilenameFilter() 
+        {
+            @Override
+            public boolean accept(File f, String name) 
+            {
+                return name.endsWith(".jar");
+
+            }
+        };
+
+        String[] contains = modLocation.list(filter);
+
+        //Printing all the mods and moving the mods out of the folder
+        //the ensure it is just the mods contained in the modpack
+        for(String path : contains)
+        {
+            System.out.println(path);
+            Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + path), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + path));
         }
     }
 
