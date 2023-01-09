@@ -12,6 +12,9 @@ import java.util.Map;
 public class gui {
 
     public static void main(String args[]){
+
+        //Creating a home that the system can hold mods that the user has previously installed 
+        //without deleting them so the mods do not have to be downloaded again in the future
         new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/").mkdir();
 
         //Creating HashMap of the mods and their links
@@ -22,17 +25,17 @@ public class gui {
         JFrame frame = new JFrame("Fran Downloader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        //getSize is a method to make the window customizable to the needs of diplaying the mods
         frame.setSize(250, getSize(mods));
 
-        //Creating the panel at bottom and adding components
+        //Creating buttons
         JPanel panel = new JPanel(); // the panel is not visible in output
         JButton download = new JButton("Download");
         JButton cancel = new JButton("Cancel");
-        // Components Added using Flow Layout
         panel.add(download);
         panel.add(cancel);
 
-        // Text Area at the Center
+        //Creating the Mod list section
         JPanel modList = new JPanel();
         JPanel modList2 = new JPanel();
         modList2.setLayout(new GridLayout(mods.size() / 2, 3));
@@ -40,7 +43,7 @@ public class gui {
         JLabel mod;
         modList.add(list);
 
-        //Adding Components to the frame.s
+        //Adding Components to the frame
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
@@ -52,6 +55,7 @@ public class gui {
         frame.getContentPane().add(BorderLayout.CENTER, modList2);
         frame.setVisible(true);
 
+        //Adding Button interaction
         cancel.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -71,14 +75,7 @@ public class gui {
         });
     }
 
-    public static void putting(Map<String, String> mods)
-    {
-        mods.put("JEI", "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
-        //mods.put("Enchancements", "1298");
-        //mods.put("Origins", "1877");
-        //mods.put("Fabric API", "2001");
-    }
-
+    //getSize is a method to make the window customizable to the needs of diplaying the mods
     public static int getSize(Map<String, String> mods)
     {
         int height = 100;
@@ -89,6 +86,7 @@ public class gui {
         return height;
     }
 
+    //download method is for Configuring the folders and calling the right methods.
     public static void download(Map<String, String> mods) throws Exception
     {
         String[] contains;
@@ -127,11 +125,21 @@ public class gui {
         }
     }
 
+    //downloadFile is a method to download mods from a provided link
     public static void downloadFile(String urlString, String fileName) throws Exception {
         URL url = new URL(urlString);
 
         try (InputStream in = url.openStream()) {
             Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + fileName));
         }
+    }
+
+    //putting method is just to house all the mod links being added to the mods list
+    public static void putting(Map<String, String> mods)
+    {
+        mods.put("JEI", "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
+        //mods.put("Enchancements", "1298");
+        //mods.put("Origins", "1877");
+        //mods.put("Fabric API", "2001");
     }
 }
