@@ -12,6 +12,7 @@ import java.util.Map;
 public class gui {
 
     public static void main(String args[]){
+        new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/").mkdir();
 
         //Creating HashMap of the mods and their links
         Map<String, String> mods = new LinkedHashMap<String, String>();
@@ -90,19 +91,37 @@ public class gui {
 
     public static void download(Map<String, String> mods) throws Exception
     {
+        String[] contains;
+
+        FilenameFilter filter = new FilenameFilter() 
+        {
+            @Override
+            public boolean accept(File f, String name) 
+            {
+                return name.endsWith(".jar");
+            }
+        };
+
+        contains = f.list(filter);
+
+        for(String path : contains)
+        {
+            System.out.println(path);
+        }
+
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
             File file = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar");
-            File file2 = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + entry.getKey() + ".jar");
+            File file2 = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar");
 
             if(!file.exists() && !file2.exists())
             {
                 downloadFile(entry.getValue(), entry.getKey() + ".jar");
-                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
+                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
             }
             else
             {
-                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
+                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
             }
 
         }
@@ -112,7 +131,7 @@ public class gui {
         URL url = new URL(urlString);
 
         try (InputStream in = url.openStream()) {
-            Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/Fran/" + fileName));
+            Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + fileName));
         }
     }
 }
