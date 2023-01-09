@@ -5,6 +5,7 @@ import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
+//This was testing for the downloading code
 public class JavaDownloadFileFromURL {
 
     public static void main(String[] args) {

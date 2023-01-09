@@ -1,11 +1,10 @@
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
-import java.io.InputStream;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
-public class download {
+
+//This was testing for the downloading code
+public class Download {
 
     public static void main(String[] args) throws Exception {
         URL url = new URL("https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");

@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class gui {
+public class Fran {
 
     public static void main(String args[]) {
 
