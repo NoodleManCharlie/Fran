@@ -45,7 +45,17 @@ public class Fran {
         JLabel mod;
         modList.add(list);
 
+        //Adding the progress bar
+        JPanel loading = new JPanel();
+        loading.setVisible(false);
+        JProgressBar bar = new JProgressBar(0, 100);
+        bar.setSize(50, 100);
+        bar.setValue(0);
+        bar.setStringPainted(true);
+
+
         //Adding Components to the frame
+        frame.getContentPane().add(BorderLayout.SOUTH, loading);
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
@@ -56,6 +66,7 @@ public class Fran {
         frame.getContentPane().add(BorderLayout.NORTH, modList);
         frame.getContentPane().add(BorderLayout.CENTER, modList2);
         frame.setVisible(true);
+
 
         //Adding Button interaction
         cancel.addActionListener(new ActionListener() {
@@ -70,6 +81,7 @@ public class Fran {
             public void actionPerformed(ActionEvent e) {
                 try {
                     configure(mods);
+                    loading.setVisible(true);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
@@ -141,11 +153,34 @@ public class Fran {
 
     //downloadFile is a method to download mods from a provided link
     public static void downloadFile(String urlString, String fileName) throws Exception {
-        URL url = new URL(urlString);
 
-        try (InputStream in = url.openStream()) {
+        //Setting up connection to url
+        URL url = new URL(urlString);
+        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+        //Getting information on file later used for progress bar
+        int filesize = connection.getContentLength();
+        float totalDataRead = 0;
+
+        //Downloading
+        try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                java.io.FileOutputStream fos = new java.io.FileOutputStream(file);
+            try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
+                byte[] data = new byte[1024];
+                int i;
+                while ((i = in.read(data, 0, 1024)) >= 0) 
+                {
+                    totalDataRead = totalDataRead + i;
+                    bout.write(data, 0, i);
+                    float Percent = (totalDataRead * 100) / filesize;
+                    bar.setValue((int) Percent);
+                }
+            }
+        }        
+
+        //Earlier version I may revert back to
+        /*try (InputStream in = url.openStream()) {
             Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + fileName));
-        }
+        }*/
     }
 
     //putting method is just to house all the mod links being added to the mods list
