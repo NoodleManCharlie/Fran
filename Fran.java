@@ -10,6 +10,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.io.BufferedOutputStream;
+import java.net.HttpURLConnection;
 
 public class Fran {
 
@@ -45,17 +47,6 @@ public class Fran {
         JLabel mod;
         modList.add(list);
 
-        //Adding the progress bar
-        JPanel loading = new JPanel();
-        loading.setVisible(false);
-        JProgressBar bar = new JProgressBar(0, 100);
-        bar.setSize(50, 100);
-        bar.setValue(0);
-        bar.setStringPainted(true);
-
-
-        //Adding Components to the frame
-        frame.getContentPane().add(BorderLayout.SOUTH, loading);
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
@@ -154,6 +145,15 @@ public class Fran {
     //downloadFile is a method to download mods from a provided link
     public static void downloadFile(String urlString, String fileName) throws Exception {
 
+        //Adding the progress bar
+        JPanel loading = new JPanel();
+        loading.setVisible(false);
+        JProgressBar bar = new JProgressBar(0, 100);
+        bar.setSize(50, 100);
+        bar.setValue(0);
+        bar.setStringPainted(true);
+        frame.getContentPane().add(BorderLayout.SOUTH, loading);
+
         //Setting up connection to url
         URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -163,7 +163,8 @@ public class Fran {
         float totalDataRead = 0;
 
         //Downloading
-        try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                java.io.FileOutputStream fos = new java.io.FileOutputStream(file);
+        try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                
+            java.io.FileOutputStream fos = new java.io.FileOutputStream(fileName);
             try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
                 byte[] data = new byte[1024];
                 int i;
