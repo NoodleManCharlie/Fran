@@ -47,6 +47,16 @@ public class Fran {
         JLabel mod;
         modList.add(list);
 
+        //Adding the progress bar
+        JPanel loading = new JPanel();
+        loading.setVisible(false);
+        JProgressBar bar = new JProgressBar(0, 100);
+        bar.setSize(50, 100);
+        bar.setValue(0);
+        bar.setStringPainted(true);
+        frame.getContentPane().add(BorderLayout.SOUTH, loading);
+        loading.add(bar);
+
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
@@ -71,7 +81,7 @@ public class Fran {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    configure(mods);
+                    configure(mods, bar);
                     loading.setVisible(true);
                 } catch (Exception e1) {
                     e1.printStackTrace();
@@ -92,7 +102,7 @@ public class Fran {
     }
 
     //configure method is for Configuring the folders and calling the right methods.
-    public static void configure(Map<String, String> mods) throws Exception
+    public static void configure(Map<String, String> mods, JProgressBar bar) throws Exception
     {
         clearing();
 
@@ -104,7 +114,7 @@ public class Fran {
 
             if(!file.exists() && !file2.exists())
             {
-                downloadFile(entry.getValue(), entry.getKey() + ".jar");
+                downloadFile(entry.getValue(), entry.getKey() + ".jar", bar);
                 Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
             }
             else
@@ -143,16 +153,7 @@ public class Fran {
     }
 
     //downloadFile is a method to download mods from a provided link
-    public static void downloadFile(String urlString, String fileName) throws Exception {
-
-        //Adding the progress bar
-        JPanel loading = new JPanel();
-        loading.setVisible(false);
-        JProgressBar bar = new JProgressBar(0, 100);
-        bar.setSize(50, 100);
-        bar.setValue(0);
-        bar.setStringPainted(true);
-        frame.getContentPane().add(BorderLayout.SOUTH, loading);
+    public static void downloadFile(String urlString, String fileName, JProgressBar bar) throws Exception {
 
         //Setting up connection to url
         URL url = new URL(urlString);
