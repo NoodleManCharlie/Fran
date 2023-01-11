@@ -55,7 +55,7 @@ public class Fran {
 
         //Adding the progress bar
         JPanel loading = new JPanel();
-        loading.setVisible(false);
+        loading.setVisible(true);
         JProgressBar bar = new JProgressBar(0, 100);
         bar.setSize(50, 100);
         bar.setValue(1);
@@ -91,7 +91,7 @@ public class Fran {
         });
     }
 
-    //getSize is a method to make the window customizable to the needs of diplaying the mods
+    //getSize is a method to make the window customizable to the needs of the mod list
     public static int getSize(Map<String, String> mods)
     {
         int height = 100;
