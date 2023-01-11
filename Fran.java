@@ -47,25 +47,26 @@ public class Fran {
         JLabel mod;
         modList.add(list);
 
-        //Adding the progress bar
-        JPanel loading = new JPanel();
-        loading.setVisible(false);
-        JProgressBar bar = new JProgressBar(0, 100);
-        bar.setSize(50, 100);
-        bar.setValue(0);
-        bar.setStringPainted(true);
-        frame.getContentPane().add(BorderLayout.SOUTH, loading);
-        loading.add(bar);
-
-        frame.getContentPane().add(BorderLayout.SOUTH, panel);
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
             mod = new JLabel("- " + entry.getKey());
             modList2.add(mod);
         }
 
+        //Adding the progress bar
+        JPanel loading = new JPanel();
+        loading.setVisible(false);
+        JProgressBar bar = new JProgressBar(0, 100);
+        bar.setSize(50, 100);
+        bar.setValue(1);
+        bar.setStringPainted(true);
+        loading.add(bar);
+
+        //Putting it all together
         frame.getContentPane().add(BorderLayout.NORTH, modList);
         frame.getContentPane().add(BorderLayout.CENTER, modList2);
+        frame.getContentPane().add(BorderLayout.SOUTH, loading);
+        frame.getContentPane().add(BorderLayout.SOUTH, panel);
         frame.setVisible(true);
 
 
@@ -81,8 +82,8 @@ public class Fran {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    configure(mods, bar);
                     loading.setVisible(true);
+                    configure(mods, bar);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
