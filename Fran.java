@@ -174,8 +174,8 @@ public class Fran {
                 {
                     totalDataRead = totalDataRead + i;
                     bout.write(data, 0, i);
-                    float Percent = (totalDataRead * 100) / filesize;
-                    bar.setValue((int) Percent);
+                    //float Percent = (totalDataRead * 100) / filesize;
+                    //bar.setValue((int) Percent);
                 }
             }
         }        
