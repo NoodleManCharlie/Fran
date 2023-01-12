@@ -60,7 +60,6 @@ public class Fran {
 
         //Adding the progress bar
         JPanel loading = new JPanel();
-        //loading.setVisible(true);
         JProgressBar bar = new JProgressBar(0, 100);
         bar.setSize(100, 200);
         bar.setValue(10);
@@ -76,8 +75,6 @@ public class Fran {
         frame.getContentPane().add(BorderLayout.PAGE_END, panel);
         //frame.getContentPane().add(BorderLayout.CENTER, loading);
         frame.setVisible(true);
-
-        fill(bar);
 
         //Adding Button interaction
         cancel.addActionListener(new ActionListener() {
@@ -185,8 +182,8 @@ public class Fran {
                 {
                     totalDataRead = totalDataRead + i;
                     bout.write(data, 0, i);
-                    //float Percent = (totalDataRead * 100) / filesize;
-                    //bar.setValue((int) Percent);
+                    float Percent = (totalDataRead * 100) / filesize;
+                    bar.setValue((int) Percent);
                 }
             }
         }        
@@ -206,22 +203,23 @@ public class Fran {
         //mods.put("Fabric API", "2001");
     }
 
+  
+    //Function to test progress bar
+    /* 
+    public static void fill(JProgressBar bar)
+    {
+        int i = 0;
+        try {
+            while (i <= 100) {
+                // fill the menu bar
+                bar.setValue(i + 10);
 
-//Test script
-public static void fill(JProgressBar bar)
-{
-    int i = 0;
-    try {
-        while (i <= 100) {
-            // fill the menu bar
-            bar.setValue(i + 10);
-
-            // delay the thread
-            Thread.sleep(1000);
-            i += 20;
+                // delay the thread
+                Thread.sleep(1000);
+                i += 20;
+            }
         }
-    }
-    catch (Exception e) {
-    }
-}
+        catch (Exception e) {
+        }
+    }*/
 }
