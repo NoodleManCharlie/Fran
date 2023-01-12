@@ -11,6 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.io.BufferedOutputStream;
 import java.net.HttpURLConnection;
+import javax.swing.SwingWorker;
 
 public class Fran {
 
@@ -24,10 +25,10 @@ public class Fran {
         Map<String, String> mods = new LinkedHashMap<String, String>();
         putting(mods);
 
+
         //Creating the Frame
         JFrame frame = new JFrame("Fran Downloader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
         //getSize is a method to make the window customizable to the needs of diplaying the mods
         frame.setSize(250, getSize(mods));
 
@@ -62,12 +63,13 @@ public class Fran {
         JPanel loading = new JPanel();
         JProgressBar bar = new JProgressBar(0, 100);
         bar.setSize(100, 200);
-        bar.setValue(10);
+        bar.setValue(0);
         bar.setStringPainted(true);
         c.gridwidth = 5;
         c.gridx = 0;
         c.gridy = 0;
         panel.add(bar, c);
+        bar.setVisible(false);
 
         //Putting it all together
         frame.getContentPane().add(BorderLayout.NORTH, modList);
@@ -89,7 +91,7 @@ public class Fran {
             public void actionPerformed(ActionEvent e) {
                 try {
                     loading.setVisible(true);
-                    configure(mods, bar);
+                    configure(mods, bar, frame);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
@@ -111,7 +113,7 @@ public class Fran {
     }
 
     //configure method is for Configuring the folders and calling the right methods.
-    public static void configure(Map<String, String> mods, JProgressBar bar) throws Exception
+    public static void configure(Map<String, String> mods, JProgressBar bar, JFrame frame) throws Exception
     {
         clearing();
 
@@ -123,8 +125,18 @@ public class Fran {
 
             if(!file.exists() && !file2.exists())
             {
+                //Download
+                bar.setVisible(true);
                 downloadFile(entry.getValue(), entry.getKey() + ".jar", bar);
-                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
+
+                //Close Prompt
+                JDialog closePrompt = new JDialog(frame, "Close Prompt");
+                JLabel completeLabel = new JLabel("Configure Complete.");
+                closePrompt.add(completeLabel);
+                JButton close = new JButton("Close");
+                //close.addActionListener(close);
+                closePrompt.setSize(150, 150);
+                closePrompt.setVisible(true);
             }
             else
             {
@@ -132,7 +144,9 @@ public class Fran {
             }
 
         }
+            
     }
+    
 
     //clears out all mods so only the mods in the modpack will be in the mods folder
     public static void clearing() throws IOException
@@ -161,37 +175,51 @@ public class Fran {
         }
     }
 
+    //throws Exception 
+
     //downloadFile is a method to download mods from a provided link
-    public static void downloadFile(String urlString, String fileName, JProgressBar bar) throws Exception {
+    public static void downloadFile(String urlString, String fileName, JProgressBar bar) 
+    {
+        //Swing Worker so Progress bar can update
+        SwingWorker worker = new SwingWorker() 
+        {
+            @Override
+            protected String doInBackground() throws Exception
+            {
 
-        //Setting up connection to url
-        URL url = new URL(urlString);
-        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                //Setting up connection to url
+                URL url = new URL(urlString);
+                HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
-        //Getting information on file later used for progress bar
-        int filesize = connection.getContentLength();
-        float totalDataRead = 0;
+                //Getting information on file later used for progress bar
+                int filesize = connection.getContentLength();
+                float totalDataRead = 0;
 
-        //Downloading
-        try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                
-            java.io.FileOutputStream fos = new java.io.FileOutputStream(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + fileName);
-            try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
-                byte[] data = new byte[1024];
-                int i;
-                while ((i = in.read(data, 0, 1024)) >= 0) 
-                {
-                    totalDataRead = totalDataRead + i;
-                    bout.write(data, 0, i);
-                    float Percent = (totalDataRead * 100) / filesize;
-                    bar.setValue((int) Percent);
+                //Downloading
+                try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                
+                    java.io.FileOutputStream fos = new java.io.FileOutputStream(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + fileName);
+                    try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
+                        byte[] data = new byte[1024];
+                        int i;
+                        while ((i = in.read(data, 0, 1024)) >= 0) 
+                        {
+                            totalDataRead = totalDataRead + i;
+                            bout.write(data, 0, i);
+                            float Percent = (totalDataRead * 100) / filesize;
+                            bar.setValue((int) Percent);
+                        }
+                    }
                 }
-            }
-        }        
+                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + fileName), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + fileName));
 
-        //Earlier version I may revert back to
-        /*try (InputStream in = url.openStream()) {
-            Files.copy(in, Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + fileName));
-        }*/
+                String res = "Finished Execution";
+                return res;  
+            }
+
+        };     
+
+        worker.execute();
+
     }
 
     //putting method is just to house all the mod links being added to the mods list
@@ -203,23 +231,4 @@ public class Fran {
         //mods.put("Fabric API", "2001");
     }
 
-  
-    //Function to test progress bar
-    /* 
-    public static void fill(JProgressBar bar)
-    {
-        int i = 0;
-        try {
-            while (i <= 100) {
-                // fill the menu bar
-                bar.setValue(i + 10);
-
-                // delay the thread
-                Thread.sleep(1000);
-                i += 20;
-            }
-        }
-        catch (Exception e) {
-        }
-    }*/
 }

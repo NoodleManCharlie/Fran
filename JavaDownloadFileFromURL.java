@@ -10,7 +10,7 @@ public class JavaDownloadFileFromURL {
 
     public static void main(String[] args) {
         String url = "https://www.spotify.com/us/download/windows/";
-        String url2 = "https://www.curseforge.com/minecraft/mc-mods/jei/download/4060770/file";
+        //String url2 = "https://www.curseforge.com/minecraft/mc-mods/jei/download/4060770/file";
         
         try {
             downloadUsingNIO(url, "/Downloads/");
