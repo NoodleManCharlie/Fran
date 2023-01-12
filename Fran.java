@@ -31,21 +31,6 @@ public class Fran {
         //getSize is a method to make the window customizable to the needs of diplaying the mods
         frame.setSize(250, getSize(mods));
 
-        //Creating buttons
-        JPanel panel = new JPanel(); // the panel is not visible in output
-        panel.setLayout(new GridBagLayout());
-        GridBagConstraints c = new GridBagConstraints();
-        JButton configure = new JButton("Configure");
-        JButton cancel = new JButton("Cancel");
-        c.gridx = 0;
-        c.gridy = 1;
-        panel.add(configure, c);
-        c.gridx = 1;
-        c.gridy = 1;
-        panel.add(cancel, c);
-        c.gridx = 0;
-        c.gridy = 0;
-
         //Creating the Mod list section
         JPanel modList = new JPanel();
         JPanel modList2 = new JPanel();
@@ -60,6 +45,19 @@ public class Fran {
             modList2.add(mod);
         }
 
+        //Creating buttons
+        JPanel panel = new JPanel(); // the panel is not visible in output
+        panel.setLayout(new GridBagLayout());
+        GridBagConstraints c = new GridBagConstraints();
+        JButton configure = new JButton("Configure");
+        JButton cancel = new JButton("Cancel");
+        c.gridx = 0;
+        c.gridy = 1;
+        panel.add(configure, c);
+        c.gridx = 3;
+        c.gridy = 1;
+        panel.add(cancel, c);
+
         //Adding the progress bar
         JPanel loading = new JPanel();
         //loading.setVisible(true);
@@ -67,6 +65,9 @@ public class Fran {
         bar.setSize(100, 200);
         bar.setValue(10);
         bar.setStringPainted(true);
+        c.gridwidth = 5;
+        c.gridx = 0;
+        c.gridy = 0;
         panel.add(bar, c);
 
         //Putting it all together
@@ -104,7 +105,7 @@ public class Fran {
     //getSize is a method to make the window customizable to the needs of the mod list
     public static int getSize(Map<String, String> mods)
     {
-        int height = 100;
+        int height = 125;
         for(int  i = 0; i <= mods.size() - 1; i++)
         {
             height += 15;
