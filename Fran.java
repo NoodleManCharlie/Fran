@@ -4,7 +4,6 @@ import java.awt.event.*;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -34,10 +33,18 @@ public class Fran {
 
         //Creating buttons
         JPanel panel = new JPanel(); // the panel is not visible in output
+        panel.setLayout(new GridBagLayout());
+        GridBagConstraints c = new GridBagConstraints();
         JButton configure = new JButton("Configure");
         JButton cancel = new JButton("Cancel");
-        panel.add(configure);
-        panel.add(cancel);
+        c.gridx = 0;
+        c.gridy = 1;
+        panel.add(configure, c);
+        c.gridx = 1;
+        c.gridy = 1;
+        panel.add(cancel, c);
+        c.gridx = 0;
+        c.gridy = 0;
 
         //Creating the Mod list section
         JPanel modList = new JPanel();
@@ -55,20 +62,21 @@ public class Fran {
 
         //Adding the progress bar
         JPanel loading = new JPanel();
-        loading.setVisible(true);
+        //loading.setVisible(true);
         JProgressBar bar = new JProgressBar(0, 100);
-        bar.setSize(50, 100);
-        bar.setValue(1);
+        bar.setSize(100, 200);
+        bar.setValue(10);
         bar.setStringPainted(true);
-        loading.add(bar);
+        panel.add(bar, c);
 
         //Putting it all together
         frame.getContentPane().add(BorderLayout.NORTH, modList);
-        frame.getContentPane().add(BorderLayout.CENTER, modList2);
-        frame.getContentPane().add(BorderLayout.SOUTH, loading);
-        frame.getContentPane().add(BorderLayout.SOUTH, panel);
+        frame.getContentPane().add(BorderLayout.WEST, modList2);
+        frame.getContentPane().add(BorderLayout.PAGE_END, panel);
+        //frame.getContentPane().add(BorderLayout.CENTER, loading);
         frame.setVisible(true);
 
+        fill(bar);
 
         //Adding Button interaction
         cancel.addActionListener(new ActionListener() {
@@ -89,6 +97,8 @@ public class Fran {
                 }
             }
         });
+
+        
     }
 
     //getSize is a method to make the window customizable to the needs of the mod list
@@ -166,7 +176,7 @@ public class Fran {
 
         //Downloading
         try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                
-            java.io.FileOutputStream fos = new java.io.FileOutputStream(fileName);
+            java.io.FileOutputStream fos = new java.io.FileOutputStream(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + fileName);
             try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
                 byte[] data = new byte[1024];
                 int i;
@@ -194,4 +204,23 @@ public class Fran {
         //mods.put("Origins", "1877");
         //mods.put("Fabric API", "2001");
     }
+
+
+//Test script
+public static void fill(JProgressBar bar)
+{
+    int i = 0;
+    try {
+        while (i <= 100) {
+            // fill the menu bar
+            bar.setValue(i + 10);
+
+            // delay the thread
+            Thread.sleep(1000);
+            i += 20;
+        }
+    }
+    catch (Exception e) {
+    }
+}
 }
