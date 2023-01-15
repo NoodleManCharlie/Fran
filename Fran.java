@@ -5,13 +5,13 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.net.URL;
+import java.net.http.WebSocket.Listener;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.io.BufferedOutputStream;
 import java.net.HttpURLConnection;
-import javax.swing.SwingWorker;
 
 public class Fran {
 
@@ -132,15 +132,38 @@ public class Fran {
                 //Close Prompt
                 JDialog closePrompt = new JDialog(frame, "Close Prompt");
                 JLabel completeLabel = new JLabel("Configure Complete.");
-                closePrompt.add(completeLabel);
+                closePrompt.getContentPane().add(BorderLayout.CENTER, completeLabel);
                 JButton close = new JButton("Close");
-                //close.addActionListener(close);
+                close.addActionListener(new ActionListener()
+                {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        System.exit(0);
+                    }
+                });
+                closePrompt.getContentPane().add(BorderLayout.SOUTH, close);
                 closePrompt.setSize(150, 150);
                 closePrompt.setVisible(true);
             }
             else
             {
                 Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
+
+                //Close Prompt
+                JDialog closePrompt = new JDialog(frame, "Close Prompt");
+                JLabel completeLabel = new JLabel("Configure Complete.");
+                closePrompt.getContentPane().add(BorderLayout.CENTER, completeLabel);
+                JButton close = new JButton("Close");
+                close.addActionListener(new ActionListener()
+                {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        System.exit(0);
+                    }
+                });
+                closePrompt.getContentPane().add(BorderLayout.SOUTH, close);
+                closePrompt.setSize(175, 100);
+                closePrompt.setVisible(true);
             }
 
         }
