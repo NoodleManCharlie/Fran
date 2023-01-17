@@ -115,7 +115,11 @@ public class Fran {
     //configure method is for Configuring the folders and calling the right methods.
     public static void configure(Map<String, String> mods, JProgressBar bar, JFrame frame) throws Exception
     {
+        //Clearing the folder
         clearing();
+
+        //Running the bash file to download Fabric
+        Runtime.getRuntime().exec("bash fabric");
 
         //Download
         for (Map.Entry<String, String> entry : mods.entrySet())
