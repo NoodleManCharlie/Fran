@@ -147,6 +147,7 @@ public class Fran {
             }
             else
             {
+                //Moving the mod
                 Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
 
                 //Close Prompt
