@@ -4,7 +4,7 @@ import java.net.URL;
 
 
 //This was testing for the downloading code
-public class Download {
+public class download {
 
     public static void main(String[] args) throws Exception {
         URL url = new URL("https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
