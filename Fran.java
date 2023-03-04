@@ -118,8 +118,8 @@ public class Fran {
         //Clearing the folder
         clearing();
 
-        //Running the bash file to download Fabric
-        Runtime.getRuntime().exec("bash fabric");
+        //Downloading Fabric
+        downloadFabric();
 
         //Download
         for (Map.Entry<String, String> entry : mods.entrySet())
@@ -175,6 +175,79 @@ public class Fran {
             
     }
     
+    public static void downloadFabric() throws IOException
+    {
+
+        URL url = new URL("https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.jar");
+        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+        //Getting information on file later used for progress bar
+        int filesize = connection.getContentLength();
+        float totalDataRead = 0;
+        try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                
+            java.io.FileOutputStream fos = new java.io.FileOutputStream(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + "fabricInstaller.jar");
+            try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
+                byte[] data = new byte[1024];
+                int i;
+                while ((i = in.read(data, 0, 1024)) >= 0) 
+                {
+                    bout.write(data, 0, i);
+                }
+            }
+        }
+
+        
+        /*Process proc = null;
+        try {
+            String command = "cmd";       
+            proc = Runtime.getRuntime().exec(new String[] { "**cmd** exe"//$NON-NLS-1$
+            , "-c", command });//$NON-NLS-1$
+            if (proc != null) {
+                proc.waitFor();
+            }
+        } catch (Exception e) {
+            //Handle
+            return;
+        }
+        Process proc1 = null;
+        try {
+            String command = "cd %APPDATA%/.minecraft/Fran";      
+            proc1 = Runtime.getRuntime().exec(new String[] { "**cmd** exe"//$NON-NLS-1$
+            , "-c", command });//$NON-NLS-1$
+            if (proc1 != null) {
+                proc1.waitFor();
+            }
+        } catch (Exception e) {
+            //Handle
+            return;
+        }
+        Process proc2 = null;
+        try {
+            String command = "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1";       
+            proc2 = Runtime.getRuntime().exec(new String[] { "**cmd** exe"//$NON-NLS-1$
+            , "-c", command });//$NON-NLS-1$
+            if (proc2 != null) {
+                proc2.waitFor();
+            }
+        } catch (Exception e) {
+            //Handle
+            return;
+        } */
+
+        //String[] commands = {"cmd", "cd %APPDATA%/.minecraft/Fran", "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1"};
+        //Runtime.getRuntime().exec(commands);
+
+        //String[] commands = {"cd %APPDATA%/.minecraft/Fran", "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1"};
+        //Runtime.getRuntime().exec(commands);
+
+        //Runtime.getRuntime().exec("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1", null, new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/")); //new File("%APPDATA%/.minecraft/Fran/");
+
+        //Runtime.getRuntime().exec("java -jar fabric-installer-0.11.2.jar client -dir \"%AppData%/Roaming/.minecraft/\" -mcversion 1.19.1");
+        
+        //java -jar fabricInstaller.jar client -dir "%APPDATA%/.minecraft" -mcversion 1.19.1
+
+        Runtime.getRuntime().exec("fabric.bat", null, new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/"));
+    }
 
     //clears out all mods so only the mods in the modpack will be in the mods folder
     public static void clearing() throws IOException
@@ -253,7 +326,7 @@ public class Fran {
     //putting method is just to house all the mod links being added to the mods list
     public static void putting(Map<String, String> mods)
     {
-        mods.put("JEI", "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
+        mods.put("JEI-1.19.2", "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
         //mods.put("Enchancements", "1298");
         //mods.put("Origins", "1877");
         //mods.put("Fabric API", "2001");
