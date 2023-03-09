@@ -196,8 +196,28 @@ public class Fran {
             }
         }
 
-        
-        /*Process proc = null;
+        //Creating Batch file to be used later.
+        try 
+        {
+			File file = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + "fabric.bat");
+			FileOutputStream fos = new FileOutputStream(file);
+			DataOutputStream dos = new DataOutputStream(fos);
+            dos.writeBytes("TITLE Downloading Fabric");
+			dos.writeBytes("\n");
+			dos.writeBytes("cd %APPDATA%/.minecraft/Fran");
+			dos.writeBytes("\n");   
+			dos.writeBytes("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1");
+			dos.writeBytes("\n");
+
+			dos.close();
+		} 
+        catch (Exception e) {
+            return e;
+		}
+
+        //Failled Attempts to install Fabric
+        /* 
+        Process proc = null;
         try {
             String command = "cmd";       
             proc = Runtime.getRuntime().exec(new String[] { "**cmd** exe"//$NON-NLS-1$
@@ -232,20 +252,22 @@ public class Fran {
         } catch (Exception e) {
             //Handle
             return;
-        } */
+        }
 
-        //String[] commands = {"cmd", "cd %APPDATA%/.minecraft/Fran", "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1"};
-        //Runtime.getRuntime().exec(commands);
+        String[] commands = {"cmd", "cd %APPDATA%/.minecraft/Fran", "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1"};
+        Runtime.getRuntime().exec(commands);
 
-        //String[] commands = {"cd %APPDATA%/.minecraft/Fran", "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1"};
-        //Runtime.getRuntime().exec(commands);
+        String[] commands = {"cd %APPDATA%/.minecraft/Fran", "java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1"};
+        Runtime.getRuntime().exec(commands);
 
-        //Runtime.getRuntime().exec("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1", null, new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/")); //new File("%APPDATA%/.minecraft/Fran/");
+        Runtime.getRuntime().exec("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1", null, new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/")); //new File("%APPDATA%/.minecraft/Fran/");
 
-        //Runtime.getRuntime().exec("java -jar fabric-installer-0.11.2.jar client -dir \"%AppData%/Roaming/.minecraft/\" -mcversion 1.19.1");
+        Runtime.getRuntime().exec("java -jar fabric-installer-0.11.2.jar client -dir \"%AppData%/Roaming/.minecraft/\" -mcversion 1.19.1");
         
-        //java -jar fabricInstaller.jar client -dir "%APPDATA%/.minecraft" -mcversion 1.19.1
+        java -jar fabricInstaller.jar client -dir "%APPDATA%/.minecraft" -mcversion 1.19.1
+        */
 
+        //Runs Batch script that runs command that will download Fabric
         Runtime.getRuntime().exec("fabric.bat", null, new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/"));
     }
 
