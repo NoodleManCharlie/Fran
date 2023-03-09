@@ -200,8 +200,8 @@ public class Fran {
         try 
         {
 			File file = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + "fabric.bat");
-			FileOutputStream fos = new FileOutputStream(file);
-			DataOutputStream dos = new DataOutputStream(fos);
+			java.io.FileOutputStream fos = new java.io.FileOutputStream(file);
+			java.io.DataOutputStream dos = new java.io.DataOutputStream(fos);
             dos.writeBytes("TITLE Downloading Fabric");
 			dos.writeBytes("\n");
 			dos.writeBytes("cd %APPDATA%/.minecraft/Fran");
@@ -212,7 +212,7 @@ public class Fran {
 			dos.close();
 		} 
         catch (Exception e) {
-            return e;
+            return;
 		}
 
         //Failled Attempts to install Fabric
