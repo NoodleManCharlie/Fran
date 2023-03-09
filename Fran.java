@@ -206,7 +206,7 @@ public class Fran {
 			dos.writeBytes("\n");
 			dos.writeBytes("cd %APPDATA%/.minecraft/Fran");
 			dos.writeBytes("\n");   
-			dos.writeBytes("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.1");
+			dos.writeBytes("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.2");
 			dos.writeBytes("\n");
 
 			dos.close();
