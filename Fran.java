@@ -206,7 +206,7 @@ public class Fran {
 			dos.writeBytes("\n");
 			dos.writeBytes("cd %APPDATA%/.minecraft/Fran");
 			dos.writeBytes("\n");   
-			dos.writeBytes("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion 1.19.2");
+			dos.writeBytes("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion " + QuickAcess.minecraftVersion);
 			dos.writeBytes("\n");
 
 			dos.close();
@@ -348,7 +348,7 @@ public class Fran {
     //putting method is just to house all the mod links being added to the mods list
     public static void putting(Map<String, String> mods)
     {
-        mods.put("JEI-1.19.2", "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
+        mods.put("JEI-" + QuickAcess.minecraftVersion, "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
         //mods.put("Enchancements", "1298");
         //mods.put("Origins", "1877");
         //mods.put("Fabric API", "2001");
