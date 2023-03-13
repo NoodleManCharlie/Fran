@@ -15,6 +15,7 @@ import java.net.HttpURLConnection;
 
 public class Fran {
 
+    public static Map<String, String> mods = new LinkedHashMap<String, String>();
     public static void main(String args[]) {
 
         //Creating a home that the system can hold mods that the user has previously installed 
@@ -22,8 +23,7 @@ public class Fran {
         new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/").mkdir();
 
         //Creating HashMap of the mods and their links
-        Map<String, String> mods = new LinkedHashMap<String, String>();
-        putting(mods);
+        QuickAcess.putting(mods);
 
 
         //Creating the Frame
@@ -105,7 +105,7 @@ public class Fran {
     public static int getSize(Map<String, String> mods)
     {
         int height = 125;
-        for(int  i = 0; i <= mods.size() - 1; i++)
+        for(int  i = 0; i <= Fran.mods.size() - 1; i++)
         {
             height += 15;
         }
@@ -124,8 +124,8 @@ public class Fran {
         //Download
         for (Map.Entry<String, String> entry : mods.entrySet())
         {
-            File file = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar");
-            File file2 = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar");
+            File file = new File(QuickAcess.modFolder + entry.getKey() + ".jar");
+            File file2 = new File(QuickAcess.franFolder + entry.getKey() + ".jar");
 
             if(!file.exists() && !file2.exists())
             {
@@ -152,7 +152,7 @@ public class Fran {
             else
             {
                 //Moving the mod
-                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + entry.getKey() + ".jar"), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + entry.getKey() + ".jar"));
+                Files.move(Paths.get(QuickAcess.franFolder + entry.getKey() + ".jar"), Paths.get(QuickAcess.modFolder + entry.getKey() + ".jar"));
 
                 //Close Prompt
                 JDialog closePrompt = new JDialog(frame, "Close Prompt");
@@ -185,7 +185,7 @@ public class Fran {
         int filesize = connection.getContentLength();
         float totalDataRead = 0;
         try (java.io.BufferedInputStream in = new java.io.BufferedInputStream(connection.getInputStream())) {                
-            java.io.FileOutputStream fos = new java.io.FileOutputStream(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + "fabricInstaller.jar");
+            java.io.FileOutputStream fos = new java.io.FileOutputStream(QuickAcess.franFolder + "fabricInstaller.jar");
             try (java.io.BufferedOutputStream bout = new BufferedOutputStream(fos, 1024)) {
                 byte[] data = new byte[1024];
                 int i;
@@ -199,7 +199,7 @@ public class Fran {
         //Creating Batch file to be used later.
         try 
         {
-			File file = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + "fabric.bat");
+			File file = new File(QuickAcess.franFolder + "fabric.bat");
 			java.io.FileOutputStream fos = new java.io.FileOutputStream(file);
 			java.io.DataOutputStream dos = new java.io.DataOutputStream(fos);
             dos.writeBytes("TITLE Downloading Fabric");
@@ -207,8 +207,6 @@ public class Fran {
 			dos.writeBytes("cd %APPDATA%/.minecraft/Fran");
 			dos.writeBytes("\n");   
 			dos.writeBytes("java -jar fabricInstaller.jar client -dir \"%APPDATA%/.minecraft\" -mcversion " + QuickAcess.minecraftVersion);
-			dos.writeBytes("\n");
-
 			dos.close();
 		} 
         catch (Exception e) {
@@ -274,7 +272,6 @@ public class Fran {
     //clears out all mods so only the mods in the modpack will be in the mods folder
     public static void clearing() throws IOException
     {
-        File modLocation = new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/");
 
         //Getting all the mods currently in the folder
         FilenameFilter filter = new FilenameFilter() 
@@ -287,14 +284,14 @@ public class Fran {
             }
         };
 
-        String[] contains = modLocation.list(filter);
+        String[] contains = QuickAcess.modFolder.list(filter);
 
         //Printing all the mods and moving the mods out of the folder
         //the ensure it is just the mods contained in the modpack
         for(String path : contains)
         {
             System.out.println(path);
-            Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + path), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + path));
+            Files.move(Paths.get(QuickAcess.modFolder + path), Paths.get(QuickAcess.franFolder + path));
         }
     }
 
@@ -333,7 +330,7 @@ public class Fran {
                         }
                     }
                 }
-                Files.move(Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/" + fileName), Paths.get(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/" + fileName));
+                Files.move(Paths.get(QuickAcess.franFolder + fileName), Paths.get(QuickAcess.modFolder + fileName));
 
                 String res = "Finished Execution";
                 return res;  
@@ -343,15 +340,6 @@ public class Fran {
 
         worker.execute();
 
-    }
-
-    //putting method is just to house all the mod links being added to the mods list
-    public static void putting(Map<String, String> mods)
-    {
-        mods.put("JEI-" + QuickAcess.minecraftVersion, "https://mediafilez.forgecdn.net/files/4239/205/jei-1.19.2-fabric-11.5.0.297.jar");
-        //mods.put("Enchancements", "1298");
-        //mods.put("Origins", "1877");
-        //mods.put("Fabric API", "2001");
     }
 
 }
