@@ -21,6 +21,7 @@ public class Fran {
         //Creating a home that the system can hold mods that the user has previously installed 
         //without deleting them so the mods do not have to be downloaded again in the future
         new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/Fran/").mkdir();
+        new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft/mods/").mkdir();
 
         //Creating HashMap of the mods and their links
         QuickAcess.putting(mods);
