@@ -14,6 +14,7 @@ public class QuickAcess {
         //Fran.mods.put("Enchancements", "1298");
         //Fran.mods.put("Origins", "1877");
         //Fran.mods.put("Fabric API", "2001");
-        System.out.println(Fran.mods.isEmpty());
+        for(Map.Entry<String,String>it:mods.entrySet())
+            System.out.print(it.getKey()+", ");
     }
 }
